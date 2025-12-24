@@ -29,7 +29,7 @@ You're typing, deep in thought... then you look up:
 ```
 Ghbdtn? rfr ltkf&   →   Привет, как дела?
 ру|дщ цщкдв          →   hello world
-аудшщ ישראל         →   שלום ישראל
+wdщь                 →   שלום
 ```
 
 Wrong keyboard layout. Again.
