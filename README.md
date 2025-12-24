@@ -87,11 +87,11 @@ Everything runs on-device. No network calls. No logging. No telemetry.
 
 ### 1. Download
 
-Get the latest `.dmg` from [Releases](https://github.com/chernistry/omfk/releases/latest).
+Get the latest `.pkg` installer from [Releases](https://github.com/chernistry/omfk/releases/latest).
 
 ### 2. Install
 
-Open the DMG and drag **OMFK** to your Applications folder.
+Double-click the PKG file and follow the installer prompts. OMFK will be installed to your Applications folder.
 
 ### 3. Grant Accessibility Access
 
@@ -127,13 +127,6 @@ OMFK uses an on-device neural network to detect which language you *intended* to
 ---
 
 ## Troubleshooting
-
-**"OMFK is damaged and can't be opened"**
-
-Run in Terminal:
-```bash
-xattr -c /Applications/OMFK.app
-```
 
 **Corrections not working**
 
