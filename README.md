@@ -2,7 +2,7 @@
 
 # O.M.F.K
 
-### Automatic keyboard layout correction for macOS
+### AI keyboard layout correction for macOS
 
 ![OMFK Banner](assets/banner.png)
 
