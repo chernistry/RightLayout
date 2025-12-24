@@ -12,9 +12,7 @@
 
 ## Download
 
-Get the latest release from [Releases](https://github.com/chernistry/omfk-releases/releases) or join our [Telegram channel](https://t.me/ohmyfuckingkeyboard/2).
-
-> **Early Alpha** — This is experimental software. Expect bugs. Your feedback helps make it better.
+Get the latest release from [Releases](https://github.com/chernistry/omfk-releases/releases/latest).
 
 ## What is OMFK?
 
@@ -43,19 +41,18 @@ Wrong keyboard layout. Again.
 
 ## Installation
 
-1. Download the latest `.dmg` from [Releases](https://github.com/chernistry/omfk-releases/releases)
+1. Download the latest `.dmg` from [Releases](https://github.com/chernistry/omfk-releases/releases/latest)
 2. Open the DMG and drag OMFK to Applications
 3. Launch OMFK — grant Accessibility permission when prompted
 4. Done! OMFK runs in your menu bar
 
-## Feedback & Issues
+## Feedback
 
-- **Telegram**: [t.me/ohmyfuckingkeyboard](https://t.me/ohmyfuckingkeyboard)
-- **Issues**: Use the Telegram group or email alex@hireex.ai
+Found a bug or have a feature idea? [Open an issue](https://github.com/chernistry/omfk-releases/issues/new/choose).
 
 ## License
 
-Proprietary. Free during alpha/beta period.
+Proprietary. Free during beta.
 
 ---
 
