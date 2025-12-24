@@ -4,6 +4,12 @@
 
 ### Automatic keyboard layout correction for macOS
 
+![OMFK Banner](assets/banner.png)
+
+---
+
+![How it works](assets/howitworks.gif)
+
 **[Website](https://hireex.ai/omfk)** · **[Telegram](https://t.me/ohmyfuckingkeyboard)**
 
 [![macOS](https://img.shields.io/badge/macOS-14.0+-000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
