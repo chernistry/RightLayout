@@ -10,11 +10,13 @@
 
 ![How it works](assets/howitworks.gif)
 
-**[Website](https://hireex.ai/omfk)** · **[Telegram](https://t.me/ohmyfuckingkeyboard)**
+**[Website](https://hireex.ai/omfk)**
 
 [![macOS](https://img.shields.io/badge/macOS-14.0+-000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
 [![Download](https://img.shields.io/badge/Download-Latest_Release-6366f1?style=flat-square)](https://github.com/chernistry/omfk/releases/latest)
 [![License](https://img.shields.io/badge/License-Proprietary-374151?style=flat-square)]()
+
+🇺🇸 English · 🇷🇺 Russian · 🇮🇱 **Hebrew**
 
 </div>
 
@@ -27,11 +29,18 @@ You're typing, deep in thought... then you look up:
 ```
 Ghbdtn? rfr ltkf&   →   Привет, как дела?
 ру|дщ цщкдв          →   hello world
+аудшщ ישראל         →   שלום ישראל
 ```
 
 Wrong keyboard layout. Again.
 
 **OMFK fixes this automatically, as you type.**
+
+---
+
+## ✨ Now with Hebrew Support
+
+One of the few layout correctors that properly handles Hebrew — including QWERTY-based Hebrew layouts with sofit letters (ץ ך ם ן ף). Works seamlessly alongside English and Russian.
 
 ---
 
@@ -71,8 +80,6 @@ Everything runs on-device. No network calls. No logging. No telemetry.
 </td>
 </tr>
 </table>
-
-**Supported languages:** English, Russian, Hebrew
 
 ---
 
