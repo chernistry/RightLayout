@@ -13,11 +13,11 @@
 
 </details>
 
-**[Website](https://hireex.ai/omfk)**
+**[Website](https://hireex.ai/omfk)** · **[Source Code](https://github.com/chernistry/omfk-src)**
 
 [![macOS](https://img.shields.io/badge/macOS-13.0+-000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
 [![Download](https://img.shields.io/badge/Download-Latest_Release-6366f1?style=flat-square)](https://github.com/chernistry/omfk/releases/latest)
-[![License](https://img.shields.io/badge/License-Proprietary-374151?style=flat-square)]()
+[![Source](https://img.shields.io/badge/Source-Available-orange?style=flat-square)](https://github.com/chernistry/omfk-src)
 
 🇺🇸 English · 🇷🇺 Russian · 🇮🇱 **Hebrew**
 
@@ -173,7 +173,7 @@ Found a bug or have a feature idea? [Open an issue](https://github.com/chernistr
 
 <div align="center">
 
-[Download](https://github.com/chernistry/omfk/releases/latest) · [Report Issue](https://github.com/chernistry/omfk/issues)
+[Download](https://github.com/chernistry/omfk/releases/latest) · [Source Code](https://github.com/chernistry/omfk-src) · [Report Issue](https://github.com/chernistry/omfk/issues)
 
 Made by [Alex Chernysh](https://hireex.ai)
 
