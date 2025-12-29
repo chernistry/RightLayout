@@ -2,7 +2,7 @@
 
 # O.M.F.K
 
-### AI keyboard layout correction for macOS
+### AI-powered keyboard layout corrector for macOS
 
 ![OMFK Banner](assets/banner.png)
 
@@ -38,44 +38,54 @@ Wrong keyboard layout. Again.
 
 ---
 
-## ✨ Now with Hebrew Support
-
-One of the few layout correctors that properly handles Hebrew — including QWERTY-based Hebrew layouts with sofit letters (ץ ך ם ן ף). Works seamlessly alongside English and Russian.
-
----
-
-## Features
+## ✨ Key Features
 
 <table>
 <tr>
 <td width="50%">
 
-**Real-time correction**
+**🚀 Type without thinking**
 
-Detects wrong layouts on word boundaries and fixes them instantly. No hotkeys needed.
+Just type. OMFK detects wrong layouts on word boundaries and fixes them instantly. No hotkeys needed.
 
 </td>
 <td width="50%">
 
-**Smart per-word analysis**
+**🧠 Self-learning**
 
-Each word is analyzed separately. Mixed-language sentences stay mixed — only wrong parts get fixed.
+Learns from your corrections. Undo a word twice — OMFK remembers. Use Alt to pick an alternative — OMFK learns your preference.
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Hotkey cycling**
+**🔒 100% on-device**
 
-Press `Option` to cycle through alternatives: original → Russian → English → Hebrew → back.
+Everything runs locally. No network calls. No logging. No telemetry. Your keystrokes never leave your Mac.
 
 </td>
 <td>
 
-**100% private**
+**⚡ Blazing fast**
 
-Everything runs on-device. No network calls. No logging. No telemetry.
+Native CoreML model with CNN+Transformer ensemble trained on Wikipedia and OpenSubtitles dumps. Detection latency <50ms.
+
+</td>
+</tr>
+<tr>
+<td>
+
+**🇮🇱 Hebrew support**
+
+One of the few correctors that properly handles Hebrew — including QWERTY-based layouts with sofit letters (ץ ך ם ן ף).
+
+</td>
+<td>
+
+**🔄 Hotkey cycling**
+
+Press `Option` to cycle through alternatives: original → Russian → English → Hebrew → back.
 
 </td>
 </tr>
@@ -91,11 +101,11 @@ Get the latest `.pkg` installer from [Releases](https://github.com/chernistry/om
 
 ### 2. Install
 
-Double-click the PKG file and follow the installer prompts. OMFK will be installed to your Applications folder.
+Double-click the PKG file and follow the installer prompts.
 
 ### 3. Grant Accessibility Access
 
-On first launch, macOS will ask for Accessibility permission.
+On first launch, macOS will ask for Accessibility permission:
 
 1. Open **System Settings → Privacy & Security → Accessibility**
 2. Enable **OMFK**
@@ -113,30 +123,35 @@ On first launch, macOS will ask for Accessibility permission.
 | Cycle through alternatives | Press `Option` |
 | Undo last correction | Press `Option` immediately after |
 | Exclude an app | Settings → Per-App Rules |
-
----
-
-## How It Works
-
-OMFK uses an on-device neural network to detect which language you *intended* to type, then converts the text to the correct layout.
-
-- Detection latency: <50ms
-- Model runs entirely on your Mac via CoreML
-- No internet connection required
+| Manage learned words | Settings → Dictionary |
 
 ---
 
 ## Troubleshooting
 
-**Corrections not working**
+### "App is damaged" error
+
+If macOS says the app is damaged, run in Terminal:
+```bash
+xattr -cr /Applications/OMFK.app
+```
+
+### Corrections not working
 
 1. Check Accessibility permission is enabled
 2. Quit and reopen OMFK
 3. Check if the app is in your exclusion list
 
-**Wrong corrections**
+### Wrong corrections
 
 Press `Option` to cycle through alternatives, or disable auto-correction for that app.
+
+---
+
+## Known Limitations
+
+- **Sublime Text:** Alt cycling may insert text instead of replacing (app-specific behavior)
+- **Some terminal emulators:** May require clipboard fallback mode
 
 ---
 
