@@ -6,9 +6,12 @@
 
 ![OMFK Banner](assets/banner.png)
 
----
+<details>
+<summary>See how it works</summary>
 
 ![How it works](assets/howitworks.gif)
+
+</details>
 
 **[Website](https://hireex.ai/omfk)**
 
