@@ -153,8 +153,11 @@ Press `Option` to cycle through alternatives, or disable auto-correction for tha
 
 ## Known Limitations
 
+- **Single-letter prepositions:** `у` and `к` may not convert at phrase start (fix in progress)
+- **Punctuation inside words:** Words like `k.,k.` (люблю) may not convert correctly
 - **Sublime Text:** Alt cycling may insert text instead of replacing (app-specific behavior)
 - **Some terminal emulators:** May require clipboard fallback mode
+- **System autocorrection:** Disable "Correct spelling automatically" in System Settings → Keyboard for best results
 
 ---
 
