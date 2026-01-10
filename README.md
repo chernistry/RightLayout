@@ -2,182 +2,75 @@
 
 # RightLayout
 
-### AI-powered keyboard layout corrector for macOS
+**Type freely.**
 
-![RightLayout Banner](assets/banner.png)
+RightLayout fixes your keyboard mistakes before you notice them.
 
-<details>
-<summary>See how it works</summary>
+[Download](https://github.com/chernistry/RightLayout/releases/latest) · [Website](https://hireex.ai/rightlayout)
 
-![How it works](assets/howitworks.gif)
+---
 
-</details>
+*English · Russian · Hebrew*
 
-**[Website](https://hireex.ai/rightlayout)** · **[Source Code](https://github.com/chernistry/rightlayout-src)**
-
-[![macOS](https://img.shields.io/badge/macOS-13.0+-000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
-[![Download](https://img.shields.io/badge/Download-Latest_Release-6366f1?style=flat-square)](https://github.com/chernistry/rightlayout/releases/latest)
-[![Source](https://img.shields.io/badge/Source-Available-orange?style=flat-square)](https://github.com/chernistry/rightlayout-src)
-
-🇺🇸 English · 🇷🇺 Russian · 🇮🇱 **Hebrew**
+*macOS 13+ · Free*
 
 </div>
 
 ---
 
-## The Problem
+## How it works
 
-You're typing, deep in thought... then you look up:
+You type in the wrong layout → RightLayout corrects it instantly.
 
 ```
-Ghbdtn, rfr ltkf?   →   Привет, как дела?
-руддщ цщкдв          →   hello world
-akuo                 →   שלום
+ghbdtn  →  привет
+руддщ   →  hello  
+akuo    →  שלום
 ```
 
-Wrong keyboard layout. Again.
-
-**RightLayout fixes this automatically, as you type.**
+No hotkeys. No notifications. Just correct text.
 
 ---
 
-## ✨ Key Features
+## Features
 
-<table>
-<tr>
-<td width="50%">
+**Works invisibly**  
+No popups, no interruptions. Corrections happen as you type.
 
-**🚀 Type without thinking**
+**Learns you**  
+Undo a correction twice — RightLayout remembers. It adapts to your writing style.
 
-Just type. RightLayout detects wrong layouts on word boundaries and fixes them instantly. No hotkeys needed.
-
-</td>
-<td width="50%">
-
-**🧠 Self-learning**
-
-Learns from your corrections. Undo a word twice — RightLayout remembers. Use Alt to pick an alternative — RightLayout learns your preference.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🔒 100% on-device**
-
-Everything runs locally. No network calls. No logging. No telemetry. Your keystrokes never leave your Mac.
-
-</td>
-<td>
-
-**⚡ Blazing fast**
-
-Native CoreML model with CNN+Transformer ensemble trained on Wikipedia and OpenSubtitles dumps. Detection latency <50ms.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🇮🇱 Hebrew support**
-
-One of the few correctors that properly handles Hebrew — including QWERTY-based layouts with sofit letters (ץ ך ם ן ף).
-
-</td>
-<td>
-
-**🔄 Hotkey cycling**
-
-Press `Option` to cycle through alternatives: original → Russian → English → Hebrew → back.
-
-</td>
-</tr>
-</table>
+**Stays private**  
+Everything runs on your Mac. Nothing leaves your device. Ever.
 
 ---
 
-## Installation
+## Install
 
-### 1. Download
-
-Get the latest `.pkg` installer from [Releases](https://github.com/chernistry/rightlayout/releases/latest).
-
-### 2. Install
-
-Double-click the PKG file and follow the installer prompts.
-
-### 3. Grant Accessibility Access
-
-On first launch, macOS will ask for Accessibility permission:
-
-1. Open **System Settings → Privacy & Security → Accessibility**
-2. Enable **RightLayout**
-3. RightLayout will automatically start working once permission is granted
-
-> **Note:** Accessibility access is required to monitor keyboard input. RightLayout cannot function without it.
+1. Download the `.pkg` from [Releases](https://github.com/chernistry/RightLayout/releases/latest)
+2. Run the installer
+3. Grant Accessibility permission when prompted
+4. Done — RightLayout works in the background
 
 ---
 
-## Usage
+## Permissions
 
-| Action | How |
-|--------|-----|
-| Toggle auto-correction | Click menu bar icon |
-| Cycle through alternatives | Press `Option` |
-| Undo last correction | Press `Option` immediately after |
-| Exclude an app | Settings → Per-App Rules |
-| Manage learned words | Settings → Dictionary |
+RightLayout needs **Accessibility** access to detect and correct your typing. It cannot read passwords or secure fields.
 
----
-
-## Troubleshooting
-
-### "App is damaged" error
-
-If macOS says the app is damaged, run in Terminal:
-```bash
-xattr -cr /Applications/RightLayout.app
-```
-
-### Corrections not working
-
-1. Check Accessibility permission is enabled
-2. Quit and reopen RightLayout
-3. Check if the app is in your exclusion list
-
-### Wrong corrections
-
-Press `Option` to cycle through alternatives, or disable auto-correction for that app.
-
----
-
-## Known Limitations
-
-- **Single-letter prepositions:** `у` and `к` may not convert at phrase start (fix in progress)
-- **Punctuation inside words:** Words like `k.,k.` (люблю) may not convert correctly
-- **Sublime Text:** Alt cycling may insert text instead of replacing (app-specific behavior)
-- **Some terminal emulators:** May require clipboard fallback mode
-- **System autocorrection:** Disable "Correct spelling automatically" in System Settings → Keyboard for best results
-
----
-
-## Requirements
-
-- macOS Ventura (13.0) or later
-- Apple Silicon or Intel Mac
+All processing happens locally on your Mac.
 
 ---
 
 ## Feedback
 
-Found a bug or have a feature idea? [Open an issue](https://github.com/chernistry/rightlayout/issues/new/choose).
+Found a bug? Have a suggestion?  
+[Open an issue](https://github.com/chernistry/RightLayout/issues)
 
 ---
 
 <div align="center">
 
-[Download](https://github.com/chernistry/rightlayout/releases/latest) · [Source Code](https://github.com/chernistry/rightlayout-src) · [Report Issue](https://github.com/chernistry/rightlayout/issues)
-
-Made by [Alex Chernysh](https://hireex.ai)
+Made with care by [Alex Chernysh](https://hireex.ai)
 
 </div>
