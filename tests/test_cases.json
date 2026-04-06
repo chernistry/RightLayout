@@ -1,0 +1,1556 @@
+{
+  "version": "2.0",
+  "description": "RightLayout comprehensive real-world test cases",
+  "single_words": {
+    "description": "Basic single word corrections",
+    "cases": [
+      {
+        "input": "ghbdtn",
+        "expected": "привет",
+        "desc": "привет"
+      },
+      {
+        "input": "ntrcn",
+        "expected": "текст",
+        "desc": "текст"
+      },
+      {
+        "input": "ckjdf",
+        "expected": "слова",
+        "desc": "слова"
+      },
+      {
+        "input": "vbh",
+        "expected": "мир",
+        "desc": "мир"
+      },
+      {
+        "input": "rjl",
+        "expected": "код",
+        "desc": "код"
+      },
+      {
+        "input": "ghbdtnbr",
+        "expected": "приветик",
+        "desc": "приветик (diminutive)"
+      },
+      {
+        "input": "cgfcb,j",
+        "expected": "спасибо",
+        "desc": "спасибо"
+      },
+      {
+        "input": "ljhjuf",
+        "expected": "дорога",
+        "desc": "дорога"
+      },
+      {
+        "input": "Ghbdtn",
+        "expected": "Привет",
+        "desc": "Capitalization preserved (leading uppercase)"
+      },
+      {
+        "input": "GHBDTN",
+        "expected": "ПРИВЕТ",
+        "desc": "ALL CAPS preserved"
+      },
+      {
+        "input": "руддщ",
+        "expected": "hello",
+        "desc": "hello typed on Russian (PC/Mac) layout → EN"
+      },
+      {
+        "input": "Руддщ",
+        "expected": "Hello",
+        "desc": "Hello typed on Russian layout with capitalization"
+      },
+      {
+        "input": "фыв",
+        "expected": "asd",
+        "desc": "asd typed on Russian layout (home row)"
+      },
+      {
+        "input": "челло",
+        "expected": "hello",
+        "desc": "hello typed on Russian Phonetic layout → EN",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russian_phonetic",
+            "he": "hebrew"
+          }
+        }
+      },
+      {
+        "input": "akuo",
+        "expected": "שלום",
+        "desc": "שלום typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "akuo",
+        "expected": "שלום",
+        "desc": "שלום typed on EN layout (Hebrew PC variant)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_pc"
+          }
+        }
+      },
+      {
+        "input": "wlvM",
+        "expected": "שלום",
+        "desc": "שלום typed on EN layout (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "יקךךם",
+        "expected": "hello",
+        "desc": "hello typed on Hebrew Mac/PC layout → EN"
+      },
+      {
+        "input": "יקךךם",
+        "expected": "hello",
+        "desc": "hello typed on Hebrew PC layout → EN (explicit variant)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_pc"
+          }
+        }
+      },
+      {
+        "input": "העללו",
+        "expected": "hello",
+        "desc": "hello typed on Hebrew QWERTY layout → EN",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "עינגאמ",
+        "expected": "привет",
+        "desc": "привет typed on Hebrew Mac/PC layout → RU"
+      },
+      {
+        "input": "גהבדתנ",
+        "expected": "привет",
+        "desc": "привет typed on Hebrew QWERTY layout → RU",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "флгщ",
+        "expected": "שלום",
+        "desc": "שלום typed on Russian layout → HE"
+      }
+    ]
+  },
+  "comma_period_single_words": {
+    "description": "Single words with comma/period (б/ю mapping)",
+    "cases": [
+      {
+        "input": "hf,jnftn",
+        "expected": "работает",
+        "desc": "работает"
+      },
+      {
+        "input": "k.,k.",
+        "expected": "люблю",
+        "desc": "люблю"
+      },
+      {
+        "input": ",tp",
+        "expected": "без",
+        "desc": "без"
+      },
+      {
+        "input": ",ele",
+        "expected": "буду",
+        "desc": "буду"
+      },
+      {
+        "input": "j,",
+        "expected": "об",
+        "desc": "об"
+      }
+    ]
+  },
+  "real_paragraphs": {
+    "description": "Real multi-sentence paragraphs as people actually type",
+    "cases": [
+      {
+        "input": "ghbdtn! rfr ltkf? lfyyj yt dbltk ntyz? ult ns ,sk? z pdjybk nt,t dxthf? yj ns yt jndtnbk",
+        "expected": "привет! как дела? давно не видел тебя. где ты был? я звонил тебе вчера, но ты не ответил",
+        "desc": "Casual chat with multiple sentences and punctuation"
+      },
+      {
+        "input": "gj;fkeqcnf? jnghfdmnt vyt ljrevtyn lj rjywf lyz? 'nj jxtym df;yj lkz yfituj ghjtrna? ,tp ytuj vs yt cvj;tv ghjljk;bnm hf,jne",
+        "expected": "пожалуйста, отправьте мне документ до конца дня. это очень важно для нашего проекта. без него мы не сможем продолжить работу",
+        "desc": "Work email - formal request"
+      },
+      {
+        "input": "z yt vjue gjyznm? gjxtve 'nj yt hf,jnftn? vs ghjdthbkb dct yfcnhjqrb? gthtpfuhepmkb cthdth? yj ghjuktvf jcnftncz",
+        "expected": "я не могу понять, почему это не работает. мы проверили все настройки, перезагрузили сервер, но проблема остается",
+        "desc": "Tech support frustration"
+      },
+      {
+        "input": "pfdhf vs blv d rbyjntfnh? [jxtim gjqnb c yfvb? abkmv yfxbyftncz d 8 dtxthf? yt jpflfq",
+        "expected": "завтра мы идем в кинотеатр. хочешь пойти с нами? фильм начинается в 8 вечера. не опаздай",
+        "desc": "Casual invitation with time"
+      },
+      {
+        "input": "ljhjufz? c lytv hj;ltybz! ;tkf. nt,t cxfcnmz b pljhjdmz? gentq ,eltn vyjuj? yj dct ,eltn [jhjij",
+        "expected": "дорогая, с днем рождения! желаю тебе счастья и здоровья. пусть будет много, но все будет хорошо",
+        "desc": "Birthday greeting"
+      },
+      {
+        "input": "dcnhtxf pfdnhf d 14^30? yfgjvyb vyt gj;fkeqcnf/",
+        "expected": "встреча завтра в 14:30, напомни мне пожалуйста.",
+        "desc": "Meeting scheduling with time (RU-PC punctuation)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew"
+          }
+        }
+      },
+      {
+        "input": "z gjcvjnhtk kjub — nfv jib,rf^ yt elfkjcm cj[hfybnm afqk/",
+        "expected": "я посмотрел логи — там ошибка: не удалось сохранить файл.",
+        "desc": "Debugging sentence with em dash + colon (RU-PC punctuation)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew"
+          }
+        }
+      },
+      {
+        "input": "lfdfq cjpdjybvcz pfdnhf enhjv? e vtyz tcnm gfhf djghjcjd/",
+        "expected": "давай созвонимся завтра утром, у меня есть пара вопросов.",
+        "desc": "Short planning sentence (RU-PC punctuation)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew"
+          }
+        }
+      }
+    ]
+  },
+  "multiline_realistic": {
+    "description": "Multi-line text as in real documents",
+    "cases": [
+      {
+        "input": "pfujkjdjr\n\ngthdst cnhjrb ntrcnf? rjnjhst jxtym df;ys?\ndnjhst cnhjrb ntrcnf? rjnjhst njt df;ys?\n\npfrk.xtybt",
+        "expected": "заголовок\n\nпервые строки текста, которые очень важны.\nвторые строки текста, которые тоже важны.\n\nзаключение",
+        "desc": "Document with header, paragraphs, conclusion"
+      },
+      {
+        "input": "cgbcjr gjregr:\n- [kt,\n- vjkjrj\n- zqwf\n- vfckj\n\nbnjuj: 500 he,",
+        "expected": "список покупок:\n- хлеб\n- молоко\n- яйца\n- масло\n\nитого: 500 руб",
+        "desc": "Shopping list with bullets and total"
+      }
+    ]
+  },
+  "context_boost_hard": {
+    "description": "Hard cases where first word is very ambiguous",
+    "cases": [
+      {
+        "words": [
+          "z",
+          "nt,z",
+          "k.,k."
+        ],
+        "expected_final": "я тебя люблю",
+        "desc": "я тебя люблю - classic"
+      },
+      {
+        "words": [
+          "d",
+          "'njv",
+          "ujle",
+          "vs",
+          "pfgecnbkb",
+          "ghjtrn"
+        ],
+        "expected_final": "в этом году мы запустили проект",
+        "desc": "в этом году... - preposition + long phrase"
+      },
+      {
+        "words": [
+          "f",
+          "ns",
+          "xnj",
+          "levftim"
+        ],
+        "expected_final": "а ты что думаешь",
+        "desc": "а ты что думаешь - starts with single letter"
+      },
+      {
+        "words": [
+          "j",
+          "xtv",
+          "ds",
+          "ujdjhbnt"
+        ],
+        "expected_final": "о чем вы говорите",
+        "desc": "о чем вы говорите - question starting with о"
+      },
+      {
+        "words": [
+          "e",
+          "vtyz",
+          "tcnm",
+          "bltz"
+        ],
+        "expected_final": "у меня есть идея",
+        "desc": "у меня есть идея - starts with у"
+      },
+      {
+        "words": [
+          "r",
+          "cj;fktyb.",
+          "'nj",
+          "ytdjpvj;yj"
+        ],
+        "expected_final": "к сожалению это невозможно",
+        "desc": "к сожалению - formal phrase"
+      },
+      {
+        "words": [
+          "yj",
+          "'nj",
+          "yt",
+          "njxyj"
+        ],
+        "expected_final": "но это не точно",
+        "desc": "но это не точно - meme phrase"
+      },
+      {
+        "words": [
+          "d",
+          "'njq",
+          "ntvt",
+          "vs",
+          "e;t",
+          ",skb"
+        ],
+        "expected_final": "в этой теме мы уже были",
+        "desc": "Single-letter preposition + confirmation later"
+      },
+      {
+        "words": [
+          "f",
+          "'nj",
+          "djj,ot",
+          "yjhvfkmyj"
+        ],
+        "expected_final": "а это вообще нормально",
+        "desc": "Starts with 'а' and mixes short/long words"
+      },
+      {
+        "words": [
+          "e",
+          "vtyz",
+          "ytn",
+          "dhtvtyb"
+        ],
+        "expected_final": "у меня нет времени",
+        "desc": "Short first word + common phrase"
+      }
+    ]
+  },
+  "ambiguous_words": {
+    "description": "Words that look similar in multiple languages or are international",
+    "cases": [
+      {
+        "input": "ok",
+        "expected": "ok",
+        "should_change": false,
+        "desc": "ok - international"
+      },
+      {
+        "input": "no",
+        "expected": "no",
+        "should_change": false,
+        "desc": "no - valid EN"
+      },
+      {
+        "input": "test",
+        "expected": "test",
+        "should_change": false,
+        "desc": "test - valid EN"
+      },
+      {
+        "input": "a",
+        "expected": "a",
+        "should_change": false,
+        "desc": "single a - too ambiguous"
+      },
+      {
+        "input": "I",
+        "expected": "I",
+        "should_change": false,
+        "desc": "single I - valid EN"
+      },
+      {
+        "input": "TV",
+        "expected": "TV",
+        "should_change": false,
+        "desc": "TV - abbreviation"
+      },
+      {
+        "input": "DNA",
+        "expected": "DNA",
+        "should_change": false,
+        "desc": "DNA - scientific"
+      },
+      {
+        "input": "API",
+        "expected": "API",
+        "should_change": false,
+        "desc": "API - tech term"
+      },
+      {
+        "input": "CEO",
+        "expected": "CEO",
+        "should_change": false,
+        "desc": "CEO - business term"
+      },
+      {
+        "input": "lol",
+        "expected": "lol",
+        "should_change": false,
+        "desc": "lol - internet slang"
+      },
+      {
+        "input": "brb",
+        "expected": "brb",
+        "should_change": false,
+        "desc": "brb - internet slang"
+      },
+      {
+        "input": "но",
+        "expected": "но",
+        "should_change": false,
+        "desc": "но (RU) should not be 'no'"
+      },
+      {
+        "input": "а",
+        "expected": "а",
+        "should_change": false,
+        "desc": "а (RU) single-letter word should not be touched"
+      },
+      {
+        "input": "Sasha",
+        "expected": "Sasha",
+        "should_change": false,
+        "desc": "Name transliteration (EN)"
+      },
+      {
+        "input": "Masha",
+        "expected": "Masha",
+        "should_change": false,
+        "desc": "Name transliteration (EN)"
+      },
+      {
+        "input": "Roman",
+        "expected": "Roman",
+        "should_change": false,
+        "desc": "Name / common word in EN"
+      },
+      {
+        "input": "macOS",
+        "expected": "macOS",
+        "should_change": false,
+        "desc": "Product name casing"
+      },
+      {
+        "input": "iOS",
+        "expected": "iOS",
+        "should_change": false,
+        "desc": "Product name casing"
+      },
+      {
+        "input": "Xcode",
+        "expected": "Xcode",
+        "should_change": false,
+        "desc": "Tool name"
+      },
+      {
+        "input": "swift",
+        "expected": "swift",
+        "should_change": false,
+        "desc": "Tool name (lowercase)"
+      },
+      {
+        "input": "git",
+        "expected": "git",
+        "should_change": false,
+        "desc": "Tool name (whitelisted)"
+      },
+      {
+        "input": "README.md",
+        "expected": "README.md",
+        "should_change": false,
+        "desc": "Filename with dot"
+      },
+      {
+        "input": "v1.2.3",
+        "expected": "v1.2.3",
+        "should_change": false,
+        "desc": "Semver token"
+      }
+    ]
+  },
+  "negative_should_not_change": {
+    "description": "Inputs that must stay unchanged (URLs, emails, code, IDs)",
+    "cases": [
+      {
+        "input": "https://example.com/path?x=1&y=2",
+        "expected": "https://example.com/path?x=1&y=2",
+        "should_change": false,
+        "desc": "URL with query params"
+      },
+      {
+        "input": "user.name+tag@example.co.uk",
+        "expected": "user.name+tag@example.co.uk",
+        "should_change": false,
+        "desc": "Email with plus addressing"
+      },
+      {
+        "input": "/Users/demo/projects/rightlayout/OMFK/Sources/Core/ConfidenceRouter.swift",
+        "expected": "/Users/demo/projects/rightlayout/OMFK/Sources/Core/ConfidenceRouter.swift",
+        "should_change": false,
+        "desc": "Unix file path"
+      },
+      {
+        "input": "C:\\\\Users\\\\Sasha\\\\Documents\\\\file.txt",
+        "expected": "C:\\\\Users\\\\Sasha\\\\Documents\\\\file.txt",
+        "should_change": false,
+        "desc": "Windows file path"
+      },
+      {
+        "input": "550e8400-e29b-41d4-a716-446655440000",
+        "expected": "550e8400-e29b-41d4-a716-446655440000",
+        "should_change": false,
+        "desc": "UUID"
+      },
+      {
+        "input": "a1b2c3d4e5f6a7b8c9d0",
+        "expected": "a1b2c3d4e5f6a7b8c9d0",
+        "should_change": false,
+        "desc": "Hex-like token (commit-ish)"
+      },
+      {
+        "input": "{\"status\":\"ok\",\"count\":3}",
+        "expected": "{\"status\":\"ok\",\"count\":3}",
+        "should_change": false,
+        "desc": "JSON snippet"
+      },
+      {
+        "input": "if (x == 1) { return true; }",
+        "expected": "if (x == 1) { return true; }",
+        "should_change": false,
+        "desc": "Code snippet"
+      },
+      {
+        "input": "+7 (999) 123-45-67",
+        "expected": "+7 (999) 123-45-67",
+        "should_change": false,
+        "desc": "Phone with parentheses"
+      },
+      {
+        "input": "2024-12-25 15:30",
+        "expected": "2024-12-25 15:30",
+        "should_change": false,
+        "desc": "ISO date + time"
+      },
+      {
+        "input": "127.0.0.1:8080",
+        "expected": "127.0.0.1:8080",
+        "should_change": false,
+        "desc": "IPv4 + port"
+      },
+      {
+        "input": "example.com/path?x=1&y=2",
+        "expected": "example.com/path?x=1&y=2",
+        "should_change": false,
+        "desc": "URL without scheme"
+      },
+      {
+        "input": "--dry-run --max-time=30 --output=out.txt",
+        "expected": "--dry-run --max-time=30 --output=out.txt",
+        "should_change": false,
+        "desc": "CLI flags"
+      },
+      {
+        "input": "git checkout -b feature/rightlayout-e2e",
+        "expected": "git checkout -b feature/rightlayout-e2e",
+        "should_change": false,
+        "desc": "Git command"
+      },
+      {
+        "input": "~/Library/Application Support/com.chernistry.rightlayout/Personalization/store.json",
+        "expected": "~/Library/Application Support/com.chernistry.rightlayout/Personalization/store.json",
+        "should_change": false,
+        "desc": "Path with spaces (tilde form)"
+      },
+      {
+        "input": "[RightLayout](https://alexchernysh.com/rightlayout)",
+        "expected": "[RightLayout](https://alexchernysh.com/rightlayout)",
+        "should_change": false,
+        "desc": "Markdown link"
+      },
+      {
+        "input": "`git status`",
+        "expected": "`git status`",
+        "should_change": false,
+        "desc": "Inline code (Markdown)"
+      }
+    ]
+  },
+  "mixed_language_real": {
+    "description": "Real mixed language scenarios",
+    "cases": [
+      {
+        "input": "ghbdtn! rfr ltkf? I'm fine, cgfcb,j",
+        "expected": "привет! как дела? I'm fine, спасибо",
+        "desc": "RU-EN-RU mix in conversation"
+      },
+      {
+        "input": "jnghfdm email yf test@mail.ru gj;fkeqcnf",
+        "expected": "отправь email на test@mail.ru пожалуйста",
+        "desc": "RU with email address"
+      },
+      {
+        "input": "pfqnb yf https://google.com b yfqlb byajhvfwb.",
+        "expected": "зайти на https://google.com и найди информацию",
+        "desc": "RU with URL"
+      },
+      {
+        "input": "bcgjkmpez API jn Google? vs cvj;tv cjplfnm ghbkj;tybt",
+        "expected": "используя API от Google, мы сможем создать приложение",
+        "desc": "RU with tech terms"
+      },
+      {
+        "input": "привет руддщ",
+        "expected": "привет hello",
+        "desc": "Mixed scripts: keep RU, fix EN typed on RU layout"
+      },
+      {
+        "input": "hello ghbdtn",
+        "expected": "hello привет",
+        "desc": "Mixed scripts: keep EN, fix RU typed on EN layout"
+      },
+      {
+        "input": "ghjdthm gj;fkeqcnf https://github.com/openai/omfk",
+        "expected": "проверь пожалуйста https://github.com/openai/omfk",
+        "desc": "RU + URL (URL must stay unchanged)"
+      },
+      {
+        "input": "jnrhjq afqk /Users/demo/projects/rightlayout/OMFK/Sources/Core/ConfidenceRouter.swift",
+        "expected": "открой файл /Users/demo/projects/rightlayout/OMFK/Sources/Core/ConfidenceRouter.swift",
+        "desc": "RU + file path (path must stay unchanged)"
+      }
+    ]
+  },
+  "special_symbols": {
+    "description": "Emoji and lightweight formatting mixed with corrections",
+    "cases": [
+      {
+        "input": "🙂 ghbdtn",
+        "expected": "🙂 привет",
+        "desc": "Emoji + one corrected word"
+      },
+      {
+        "input": "ghbdtn 🙂",
+        "expected": "привет 🙂",
+        "desc": "One corrected word + emoji"
+      },
+      {
+        "input": "TODO: ghbdtn vbh",
+        "expected": "TODO: привет мир",
+        "desc": "Prefix token + multiple corrected words"
+      }
+    ]
+  },
+  "hebrew_cases": {
+    "description": "Hebrew-focused conversions (EN↔HE, RU↔HE) including layout variants",
+    "cases": [
+      {
+        "input": "akuo",
+        "expected": "שלום",
+        "desc": "שלום typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": ",usv",
+        "expected": "תודה",
+        "desc": "תודה typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "cceav",
+        "expected": "בבקשה",
+        "desc": "בבקשה typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "htkkv",
+        "expected": "יאללה",
+        "desc": "יאללה typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "xccv",
+        "expected": "סבבה",
+        "desc": "סבבה typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "nv",
+        "expected": "מה",
+        "desc": "מה typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "fi",
+        "expected": "כן",
+        "desc": "כן typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "kt",
+        "expected": "לא",
+        "desc": "לא typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "cuer yuc",
+        "expected": "בוקר טוב",
+        "desc": "בוקר טוב typed on EN layout (Hebrew Mac/PC)"
+      },
+      {
+        "input": "אקדא",
+        "expected": "test",
+        "desc": "test typed on Hebrew layout → EN"
+      },
+      {
+        "input": "שפן",
+        "expected": "api",
+        "desc": "api typed on Hebrew layout → EN"
+      },
+      {
+        "input": "עןאיונ",
+        "expected": "github",
+        "desc": "github typed on Hebrew layout → EN"
+      },
+      {
+        "input": "קצשןך",
+        "expected": "email",
+        "desc": "email typed on Hebrew layout → EN"
+      },
+      {
+        "input": "יקךךם",
+        "expected": "hello",
+        "desc": "hello typed on Hebrew Mac layout → EN"
+      },
+      {
+        "input": "бгым",
+        "expected": "תודה",
+        "desc": "תודה typed on RU layout → HE"
+      },
+      {
+        "input": "ссуфм",
+        "expected": "בבקשה",
+        "desc": "בבקשה typed on RU layout → HE"
+      },
+      {
+        "input": "флгщ",
+        "expected": "שלום",
+        "desc": "שלום typed on RU layout → HE"
+      },
+      {
+        "input": "רכר ךאלכ",
+        "expected": "как дела",
+        "desc": "как дела typed on Hebrew layout → RU"
+      },
+      {
+        "input": "עינגאמ רכר ךאלכ",
+        "expected": "привет как дела",
+        "desc": "привет как дела typed on Hebrew layout → RU"
+      },
+      {
+        "input": "wlvM",
+        "expected": "שלום",
+        "desc": "שלום typed on EN layout (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "Yvdh",
+        "expected": "תודה",
+        "desc": "תודה typed on EN layout (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "mh",
+        "expected": "מה",
+        "desc": "מה typed on EN layout (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "la",
+        "expected": "לא",
+        "desc": "לא typed on EN layout (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "mlK",
+        "expected": "מלך",
+        "desc": "Final form ך preserved (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "miM",
+        "expected": "מים",
+        "desc": "Final form ם preserved (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "arC",
+        "expected": "ארץ",
+        "desc": "Final form ץ preserved (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "akuo",
+        "expected": "שלום",
+        "desc": "שלום Mac-style on QWERTY system (should try all HE layouts)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      },
+      {
+        "input": "שָׁלוֹם",
+        "expected": "שָׁלוֹם",
+        "should_change": false,
+        "desc": "Hebrew with niqqud (combining marks) should remain unchanged"
+      },
+      {
+        "input": "בּ",
+        "expected": "בּ",
+        "should_change": false,
+        "desc": "Hebrew letter with dagesh (U+05BC) should remain unchanged"
+      }
+    ]
+  },
+  "punctuation_triggers": {
+    "description": "Test different punctuation as word boundaries",
+    "cases": [
+      {
+        "input": "ghbdtn.rfr ltkf",
+        "expected": "привет.как дела",
+        "desc": "Period without space"
+      },
+      {
+        "input": "ghbdtn,rfr ltkf",
+        "expected": "привет,как дела",
+        "desc": "Comma without space"
+      },
+      {
+        "input": "ghbdtn!rfr ltkf",
+        "expected": "привет!как дела",
+        "desc": "Exclamation without space"
+      },
+      {
+        "input": "ghbdtn?rfr ltkf",
+        "expected": "привет?как дела",
+        "desc": "Question mark without space"
+      },
+      {
+        "input": "(ghbdtn)",
+        "expected": "(привет)",
+        "desc": "Word in parentheses"
+      },
+      {
+        "input": "\"ghbdtn\"",
+        "expected": "\"привет\"",
+        "desc": "Word in quotes"
+      },
+      {
+        "input": "ghbdtn - vbh",
+        "expected": "привет - мир",
+        "desc": "Words with dash"
+      },
+      {
+        "input": "ghbdtn: rfr ltkf",
+        "expected": "привет: как дела",
+        "desc": "Colon as separator"
+      },
+      {
+        "input": "ghbdtn; rfr ltkf",
+        "expected": "привет; как дела",
+        "desc": "Semicolon as separator"
+      },
+      {
+        "input": "ghbdtn...rfr ltkf",
+        "expected": "привет...как дела",
+        "desc": "Ellipsis without space"
+      },
+      {
+        "input": "[ghbdtn]",
+        "expected": "[привет]",
+        "desc": "Word in brackets"
+      },
+      {
+        "input": "{ghbdtn}",
+        "expected": "{привет}",
+        "desc": "Word in braces"
+      },
+      {
+        "input": "«ghbdtn»",
+        "expected": "«привет»",
+        "desc": "Word in guillemets"
+      },
+      {
+        "input": "ghbdtn—vbh",
+        "expected": "привет—мир",
+        "desc": "Em dash without spaces"
+      },
+      {
+        "input": "ghbdtn / vbh",
+        "expected": "привет / мир",
+        "desc": "Slash as separator"
+      },
+      {
+        "input": "ghbdtn\\\\vbh",
+        "expected": "привет\\\\мир",
+        "desc": "Backslash as separator"
+      }
+    ]
+  },
+  "typos_and_errors": {
+    "description": "Text with typos - should still be corrected",
+    "cases": [
+      {
+        "input": "ghbdtn vbhh",
+        "expected": "привет мирр",
+        "desc": "Double letter typo"
+      },
+      {
+        "input": "ghbdtn vb",
+        "expected": "привет ми",
+        "desc": "Incomplete word"
+      },
+      {
+        "input": "ghbdtnn",
+        "expected": "приветт",
+        "desc": "Extra letter"
+      },
+      {
+        "input": "ghbdetn",
+        "expected": "привует",
+        "desc": "Inserted wrong character (typo inside)"
+      },
+      {
+        "input": "ghbdt",
+        "expected": "приве",
+        "desc": "Missing last letter (incomplete word)"
+      },
+      {
+        "input": "ghbdtnm",
+        "expected": "приветь",
+        "desc": "Extra character at end"
+      },
+      {
+        "input": "cgfcboj",
+        "expected": "спасищо",
+        "desc": "Typo in 'спасибо' (wrong key)"
+      },
+      {
+        "input": "cgfcb,jj",
+        "expected": "спасибоо",
+        "desc": "Double last letter typo"
+      }
+    ]
+  },
+  "numbers_and_special": {
+    "description": "Text with numbers and special characters",
+    "cases": [
+      {
+        "input": "dcnhtxf d 15:00",
+        "expected": "встреча в 15:00",
+        "desc": "Time format"
+      },
+      {
+        "input": "wtyf 1000 he,",
+        "expected": "цена 1000 руб",
+        "desc": "Price"
+      },
+      {
+        "input": "ntktajy +7-999-123-45-67",
+        "expected": "телефон +7-999-123-45-67",
+        "desc": "Phone number"
+      },
+      {
+        "input": "lfnf 25.12.2024",
+        "expected": "дата 25.12.2024",
+        "desc": "Date format"
+      },
+      {
+        "input": "dcnhtxf c 15:00-16:30",
+        "expected": "встреча с 15:00-16:30",
+        "desc": "Time range"
+      },
+      {
+        "input": "crblrf 20%",
+        "expected": "скидка 20%",
+        "desc": "Percent value"
+      },
+      {
+        "input": "wtyf ¢19/99",
+        "expected": "цена $19.99",
+        "desc": "Currency + decimal separator"
+      },
+      {
+        "input": "dthcbz √1/2/3",
+        "expected": "версия v1.2.3",
+        "desc": "Semver with dot separators"
+      }
+    ]
+  },
+  "cycling_tests": {
+    "description": "Alt cycling through alternatives",
+    "cases": [
+      {
+        "input": "ghbdtn",
+        "alt_presses": 1,
+        "expected_sequence": [
+          "ghbdtn",
+          "привет"
+        ],
+        "desc": "Single Alt corrects to RU"
+      },
+      {
+        "input": "ghbdtn",
+        "alt_presses": 2,
+        "expected_sequence": [
+          "ghbdtn",
+          "привет"
+        ],
+        "desc": "Two Alt - cycles to HE or back"
+      },
+      {
+        "input": "ghbdtn",
+        "alt_presses": 5,
+        "expected_sequence": [
+          "ghbdtn",
+          "привет"
+        ],
+        "desc": "Five Alt - stress test cycling"
+      },
+      {
+        "input": "ghbdtn vbh ntrcn",
+        "alt_presses": 3,
+        "expected_sequence": [
+          "ghbdtn vbh ntrcn",
+          "привет мир текст"
+        ],
+        "desc": "Multi-word cycling"
+      },
+      {
+        "input": "руддщ",
+        "alt_presses": 2,
+        "expected_sequence": [
+          "руддщ",
+          "hello"
+        ],
+        "desc": "Undo RU->EN typed on RU layout"
+      },
+      {
+        "input": "akuo",
+        "alt_presses": 2,
+        "expected_sequence": [
+          "akuo",
+          "שלום"
+        ],
+        "desc": "Cycle to Hebrew"
+      },
+      {
+        "input": "cgfcb,j",
+        "alt_presses": 1,
+        "expected_sequence": [
+          "cgfcb,j",
+          "спасибо"
+        ],
+        "desc": "Comma mapping in cycling (Ticket 58)"
+      },
+      {
+        "input": "k.,k.",
+        "alt_presses": 1,
+        "expected_sequence": [
+          "k.,k.",
+          "люблю"
+        ],
+        "desc": "Period mapping in cycling (Ticket 58)"
+      }
+    ]
+  },
+  "rapid_typing_simulation": {
+    "description": "Simulate fast typing with corrections",
+    "cases": [
+      {
+        "sequence": [
+          "ghb",
+          "dtn",
+          " ",
+          "vbh"
+        ],
+        "final_text": "ghbdtn vbh",
+        "expected_after_correction": "привет мир",
+        "desc": "Fast typing simulation"
+      }
+    ]
+  },
+  "paste_should_not_autocorrect": {
+    "description": "Pasted text should not be auto-corrected (manual hotkey can still correct selection)",
+    "cases": [
+      {
+        "input": "ghbdtn",
+        "expected": "ghbdtn",
+        "desc": "Paste EN→RU candidate stays unchanged"
+      },
+      {
+        "input": "ghbdtn vbh",
+        "expected": "ghbdtn vbh",
+        "desc": "Paste two-word EN→RU candidate stays unchanged"
+      },
+      {
+        "input": "wlvM",
+        "expected": "wlvM",
+        "desc": "Paste EN→HE (Hebrew QWERTY) candidate stays unchanged",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      }
+    ]
+  },
+  "cmd_z_undo": {
+    "description": "Cmd+Z should undo the last auto-correction back to the originally typed token",
+    "cases": [
+      {
+        "input": "ghbdtn",
+        "expected_corrected": "привет",
+        "desc": "Cmd+Z undo after EN→RU auto-correction"
+      },
+      {
+        "input": "руддщ",
+        "expected_corrected": "hello",
+        "desc": "Cmd+Z undo after RU→EN auto-correction"
+      },
+      {
+        "input": "wlvM",
+        "expected_corrected": "שלום",
+        "desc": "Cmd+Z undo after EN→HE auto-correction (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      }
+    ]
+  },
+  "learning_keep_as_is": {
+    "description": "Learning: after 2 explicit rejects (Option undo), the token is learned as keep-as-is",
+    "cases": [
+      {
+        "token": "ghbdtn",
+        "expected_corrected": "привет",
+        "desc": "Teach keep-as-is for a stable EN→RU token",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew"
+          }
+        }
+      }
+    ]
+  },
+  "edge_cases_system": {
+    "description": "System-level edge cases",
+    "cases": [
+      {
+        "input": "",
+        "expected": "",
+        "desc": "Empty string"
+      },
+      {
+        "input": "   ",
+        "expected": "   ",
+        "desc": "Only spaces"
+      },
+      {
+        "input": "\n\n\n",
+        "expected": "\n\n\n",
+        "desc": "Only newlines"
+      },
+      {
+        "input": "ghbdtn\t\tvbh",
+        "expected": "привет\t\tмир",
+        "desc": "Tabs between words"
+      },
+      {
+        "input": "ghbdtn\nvbh",
+        "expected": "привет\nмир",
+        "desc": "Newline as word boundary"
+      },
+      {
+        "input": "ghbdtn\n\nvbh",
+        "expected": "привет\n\nмир",
+        "desc": "Blank line between words"
+      },
+      {
+        "input": "!!!",
+        "expected": "!!!",
+        "desc": "Only punctuation"
+      },
+      {
+        "input": "12345",
+        "expected": "12345",
+        "desc": "Only digits"
+      },
+      {
+        "input": "😄",
+        "expected": "😄",
+        "desc": "Emoji only"
+      },
+      {
+        "input": "\t",
+        "expected": "\t",
+        "desc": "Single tab"
+      }
+    ]
+  },
+  "performance_stress": {
+    "description": "Large text for performance testing",
+    "cases": [
+      {
+        "input": "'njn jxtym lkbyysq ntrcn yfgbcfy cgtwbfkmyj lkz njuj? xnj,s ghjdthbnm? rfr ,scnhj hf,jnftn fkujhbnv bcghfdktybz hfcrkflrb? rjulf ntrcn cjcnjbn bp vyjub[ ckjd b ghtlkj;tybq? f nfr;t cjlth;bn pyfr ghtgbyfybz b lheue. geyrnefwb.? rjnjhfz ljk;yf ,snm cj[hfytyf ,tp bpvtytybq? 'njn ntrcn ljk;ty ,snm bcghfdkty ghfdbkmyj? xnj,s vs vjukb e,tlbnmcz? xnj fkujhbnv hf,jnftn rjhhtrnyjq",
+        "expected": "этот очень длинный текст написан специально для того, чтобы проверить, как быстро работает алгоритм исправления раскладки, когда текст состоит из многих слов и предложений, а также содержит знак препинания и другую пунктуацию, которая должна быть сохранена без изменений. этот текст должен быть исправлен правильно, чтобы мы могли убедиться, что алгоритм работает корректной",
+        "desc": "100+ word paragraph",
+        "max_time_ms": 2000
+      },
+      {
+        "input": "'njn jxtym lkbyysq ntrcn yfgbcfy cgtwbfkmyj lkz njuj? xnj,s ghjdthbnm? rfr ,scnhj hf,jnftn fkujhbnv bcghfdktybz hfcrkflrb? rjulf ntrcn cjcnjbn bp vyjub[ ckjd b ghtlkj;tybq? f nfr;t cjlth;bn pyfr ghtgbyfybz b lheue. geyrnefwb.? rjnjhfz ljk;yf ,snm cj[hfytyf ,tp bpvtytybq? 'njn ntrcn ljk;ty ,snm bcghfdkty ghfdbkmyj? xnj,s vs vjukb e,tlbnmcz? xnj fkujhbnv hf,jnftn rjhhtrnyjq 'njn jxtym lkbyysq ntrcn yfgbcfy cgtwbfkmyj lkz njuj? xnj,s ghjdthbnm? rfr ,scnhj hf,jnftn fkujhbnv bcghfdktybz hfcrkflrb? rjulf ntrcn cjcnjbn bp vyjub[ ckjd b ghtlkj;tybq? f nfr;t cjlth;bn pyfr ghtgbyfybz b lheue. geyrnefwb.? rjnjhfz ljk;yf ,snm cj[hfytyf ,tp bpvtytybq? 'njn ntrcn ljk;ty ,snm bcghfdkty ghfdbkmyj? xnj,s vs vjukb e,tlbnmcz? xnj fkujhbnv hf,jnftn rjhhtrnyjq 'njn jxtym lkbyysq ntrcn yfgbcfy cgtwbfkmyj lkz njuj? xnj,s ghjdthbnm? rfr ,scnhj hf,jnftn fkujhbnv bcghfdktybz hfcrkflrb? rjulf ntrcn cjcnjbn bp vyjub[ ckjd b ghtlkj;tybq? f nfr;t cjlth;bn pyfr ghtgbyfybz b lheue. geyrnefwb.? rjnjhfz ljk;yf ,snm cj[hfytyf ,tp bpvtytybq? 'njn ntrcn ljk;ty ,snm bcghfdkty ghfdbkmyj? xnj,s vs vjukb e,tlbnmcz? xnj fkujhbnv hf,jnftn rjhhtrnyjq",
+        "expected": "этот очень длинный текст написан специально для того, чтобы проверить, как быстро работает алгоритм исправления раскладки, когда текст состоит из многих слов и предложений, а также содержит знак препинания и другую пунктуацию, которая должна быть сохранена без изменений. этот текст должен быть исправлен правильно, чтобы мы могли убедиться, что алгоритм работает корректной этот очень длинный текст написан специально для того, чтобы проверить, как быстро работает алгоритм исправления раскладки, когда текст состоит из многих слов и предложений, а также содержит знак препинания и другую пунктуацию, которая должна быть сохранена без изменений. этот текст должен быть исправлен правильно, чтобы мы могли убедиться, что алгоритм работает корректной этот очень длинный текст написан специально для того, чтобы проверить, как быстро работает алгоритм исправления раскладки, когда текст состоит из многих слов и предложений, а также содержит знак препинания и другую пунктуацию, которая должна быть сохранена без изменений. этот текст должен быть исправлен правильно, чтобы мы могли убедиться, что алгоритм работает корректной",
+        "desc": "1000+ chars (3x repeat) for performance",
+        "max_time_ms": 3500
+      }
+    ]
+  },
+  "issue_2_prepositions": {
+    "description": "Issue #2: Single-letter prepositions е→у and r→к",
+    "cases": [
+      {
+        "input": "e vtyz",
+        "expected": "у меня",
+        "desc": "е→у preposition"
+      },
+      {
+        "input": "e vtyz tcnm bltz",
+        "expected": "у меня есть идея",
+        "desc": "е→у with context"
+      },
+      {
+        "input": "e vtyz ytn dhtvtyb",
+        "expected": "у меня нет времени",
+        "desc": "е→у longer phrase"
+      },
+      {
+        "input": "r cj;fktyb.",
+        "expected": "к сожалению.",
+        "desc": "r→к preposition"
+      }
+    ]
+  },
+  "issue_3_punctuation_boundaries": {
+    "description": "Issue #3: Punctuation not triggering word boundaries",
+    "cases": [
+      {
+        "input": "ghbdtn?rfr ltkf",
+        "expected": "привет?как дела",
+        "desc": "Question mark boundary"
+      },
+      {
+        "input": "ghbdtn; rfr ltkf",
+        "expected": "привет; как дела",
+        "desc": "Semicolon boundary"
+      },
+      {
+        "input": "ghbdtn...rfr ltkf",
+        "expected": "привет...как дела",
+        "desc": "Ellipsis boundary"
+      },
+      {
+        "input": "(ghbdtn)",
+        "expected": "(привет)",
+        "desc": "Parentheses"
+      },
+      {
+        "input": "[ghbdtn]",
+        "expected": "[привет]",
+        "desc": "Square brackets"
+      },
+      {
+        "input": "{ghbdtn}",
+        "expected": "{привет}",
+        "desc": "Curly braces"
+      },
+      {
+        "input": "«ghbdtn»",
+        "expected": "«привет»",
+        "desc": "Guillemets"
+      },
+      {
+        "input": "ghbdtn—vbh",
+        "expected": "привет—мир",
+        "desc": "Em dash"
+      },
+      {
+        "input": "ghbdtn / vbh",
+        "expected": "привет / мир",
+        "desc": "Slash with spaces"
+      }
+    ]
+  },
+  "issue_6_technical_text": {
+    "description": "Issue #6: File paths and technical text protection",
+    "cases": [
+      {
+        "input": "/Users/demo/rightlayout/file.swift",
+        "expected": "/Users/demo/rightlayout/file.swift",
+        "desc": "Unix path unchanged"
+      },
+      {
+        "input": "C:\\Users\\Sasha\\file.txt",
+        "expected": "C:\\Users\\Sasha\\file.txt",
+        "desc": "Windows path unchanged"
+      },
+      {
+        "input": "README.md",
+        "expected": "README.md",
+        "desc": "Filename with extension"
+      },
+      {
+        "input": "550e8400-e29b-41d4-a716-446655440000",
+        "expected": "550e8400-e29b-41d4-a716-446655440000",
+        "desc": "UUID unchanged"
+      },
+      {
+        "input": "v1.2.3",
+        "expected": "v1.2.3",
+        "desc": "Version number"
+      }
+    ]
+  },
+  "issue_7_numbers_punctuation": {
+    "description": "Issue #7: Punctuation in numeric contexts",
+    "cases": [
+      {
+        "input": "15:00",
+        "expected": "15:00",
+        "desc": "Time format"
+      },
+      {
+        "input": "25.12.2024",
+        "expected": "25.12.2024",
+        "desc": "Date format"
+      },
+      {
+        "input": "15:00-16:30",
+        "expected": "15:00-16:30",
+        "desc": "Time range"
+      },
+      {
+        "input": "20%",
+        "expected": "20%",
+        "desc": "Percentage"
+      },
+      {
+        "input": "v1.2.3",
+        "expected": "v1.2.3",
+        "desc": "Version with dots"
+      }
+    ]
+  },
+  "issue_8_emoji_unicode": {
+    "description": "Issue #8: Emoji and special Unicode characters",
+    "cases": [
+      {
+        "input": "🙂 ghbdtn",
+        "expected": "🙂 привет",
+        "desc": "Emoji preserved"
+      },
+      {
+        "input": "«ghbdtn»",
+        "expected": "«привет»",
+        "desc": "Guillemets preserved"
+      },
+      {
+        "input": "ghbdtn—vbh",
+        "expected": "привет—мир",
+        "desc": "Em dash preserved"
+      },
+      {
+        "input": "wtyf ¢19",
+        "expected": "цена ¢19",
+        "desc": "Currency symbol preserved"
+      },
+      {
+        "input": "ghbdtn 😄 vbh",
+        "expected": "привет 😄 мир",
+        "desc": "Emoji between corrected words"
+      },
+      {
+        "input": "😄ghbdtn",
+        "expected": "😄привет",
+        "desc": "Emoji prefix without whitespace"
+      },
+      {
+        "input": "ghbdtn❤️vbh",
+        "expected": "привет❤️мир",
+        "desc": "Emoji with variation selector preserved"
+      },
+      {
+        "input": "wlvM🙂",
+        "expected": "שלום🙂",
+        "desc": "Hebrew + emoji preserved (Hebrew QWERTY)",
+        "settings": {
+          "activeLayouts": {
+            "en": "us",
+            "ru": "russianwin",
+            "he": "hebrew_qwerty"
+          }
+        }
+      }
+    ]
+  },
+  "comma_in_words": {
+    "description": "Comma/period inside words (б/ю mapping)",
+    "cases": [
+      {
+        "input": "hf,jnftn",
+        "expected": "работает",
+        "desc": "работает with comma"
+      },
+      {
+        "input": "k.,k.",
+        "expected": "люблю",
+        "desc": "люблю with periods"
+      },
+      {
+        "input": "cj;fktyb.",
+        "expected": "сожалению",
+        "desc": "сожалению with period at end"
+      }
+    ]
+  },
+  "early_switch": {
+    "description": "Mid-word rapid layout switching (Ticket 34)",
+    "cases": [
+      {
+        "input": "ghb",
+        "expected": "при",
+        "desc": "ghb -> при (Immediate switch on 3rd char)"
+      },
+      {
+        "input": "ghbdtn",
+        "expected": "привет",
+        "desc": "ghbdtn -> привет (Switch early, finish word)"
+      },
+      {
+        "input": "ntrcn",
+        "expected": "текст",
+        "desc": "ntr -> тек (Switch early)"
+      }
+    ]
+  },
+  "backspace_safety": {
+    "description": "Ticket 62: Backspace blocking verification",
+    "cases": [
+      {
+        "input": "ghbdtn",
+        "expected": "приве",
+        "desc": "Backspace after cycle should result in deletion (привет -> приве)"
+      }
+    ]
+  }
+}

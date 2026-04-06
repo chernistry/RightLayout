@@ -1,0 +1,4 @@
+torch>=2.0.0
+coremltools>=7.0
+numpy
+pandas

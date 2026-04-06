@@ -1,0 +1,15 @@
+# Ignore large data files - they're already in the volume
+*.csv
+*.pth
+model.pth
+training_data*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+venv/
+
+# Other
+.DS_Store
+.env
+data/

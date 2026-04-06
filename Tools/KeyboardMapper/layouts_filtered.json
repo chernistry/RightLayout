@@ -1,0 +1,6841 @@
+{
+  "layouts" : [
+    {
+      "appleId" : "com.apple.keylayout.US",
+      "id" : "us",
+      "language" : "en",
+      "name" : "U.S."
+    },
+    {
+      "appleId" : "com.apple.keylayout.RussianWin",
+      "id" : "russianwin",
+      "language" : "ru",
+      "name" : "Russian – PC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Hebrew-QWERTY",
+      "id" : "hebrew_qwerty",
+      "language" : "he",
+      "name" : "Hebrew – QWERTY"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Byelorussian",
+      "id" : "byelorussian",
+      "language" : "ru",
+      "name" : "Belarusian"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Russian-Phonetic",
+      "id" : "russian_phonetic",
+      "language" : "ru",
+      "name" : "Russian – QWERTY"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Russian",
+      "id" : "russian",
+      "language" : "ru",
+      "name" : "Russian"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Colemak",
+      "id" : "colemak",
+      "language" : "en",
+      "name" : "Colemak"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Dvorak-Left",
+      "id" : "dvorak_left",
+      "language" : "en",
+      "name" : "Dvorak – Left-Handed"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Dvorak-Right",
+      "id" : "dvorak_right",
+      "language" : "en",
+      "name" : "Dvorak – Right-Handed"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Dvorak",
+      "id" : "dvorak",
+      "language" : "en",
+      "name" : "Dvorak"
+    },
+    {
+      "appleId" : "com.apple.keylayout.DVORAK-QWERTYCMD",
+      "id" : "dvorak_qwertycmd",
+      "language" : "en",
+      "name" : "Dvorak – QWERTY ⌘"
+    },
+    {
+      "appleId" : "com.apple.keylayout.ABC",
+      "id" : "abc",
+      "language" : "en",
+      "name" : "ABC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Australian",
+      "id" : "australian",
+      "language" : "en",
+      "name" : "Australian"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Austrian",
+      "id" : "austrian",
+      "language" : "en",
+      "name" : "Austrian"
+    },
+    {
+      "appleId" : "com.apple.keylayout.British-PC",
+      "id" : "british_pc",
+      "language" : "en",
+      "name" : "British – PC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.British",
+      "id" : "british",
+      "language" : "en",
+      "name" : "British"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Canadian-CSA",
+      "id" : "canadian_csa",
+      "language" : "en",
+      "name" : "Canadian – CSA"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Canadian",
+      "id" : "canadian",
+      "language" : "en",
+      "name" : "Canadian"
+    },
+    {
+      "appleId" : "com.apple.keylayout.CanadianFrench-PC",
+      "id" : "canadianfrench_pc",
+      "language" : "en",
+      "name" : "Canadian – PC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Irish",
+      "id" : "irish",
+      "language" : "en",
+      "name" : "Irish"
+    },
+    {
+      "appleId" : "com.apple.keylayout.USInternational-PC",
+      "id" : "usinternational_pc",
+      "language" : "en",
+      "name" : "U.S. International – PC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Hebrew",
+      "id" : "hebrew",
+      "language" : "he",
+      "name" : "Hebrew"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Hebrew-PC",
+      "id" : "hebrew_pc",
+      "language" : "he",
+      "name" : "Hebrew – PC"
+    },
+    {
+      "appleId" : "com.apple.keylayout.Ingush",
+      "id" : "ingush",
+      "language" : "ru",
+      "name" : "Ingush"
+    }
+  ],
+  "map" : {
+    "Backquote" : {
+      "abc" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "australian" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "austrian" : {
+        "a" : "≤",
+        "n" : "<",
+        "s" : ">",
+        "sa" : "≥"
+      },
+      "british" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "Ÿ"
+      },
+      "british_pc" : {
+        "a" : "`",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "`"
+      },
+      "byelorussian" : {
+        "a" : "]",
+        "n" : "“",
+        "s" : "„",
+        "sa" : "["
+      },
+      "canadian" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "canadian_csa" : {
+        "a" : "\\",
+        "n" : "ù",
+        "s" : "Ù",
+        "sa" : "Ω"
+      },
+      "canadianfrench_pc" : {
+        "a" : "\\",
+        "n" : "#",
+        "s" : "|"
+      },
+      "colemak" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "dvorak" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "dvorak_left" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "dvorak_right" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "hebrew" : {
+        "n" : ";",
+        "s" : "~"
+      },
+      "hebrew_pc" : {
+        "n" : "\\",
+        "s" : "|"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ּ",
+        "n" : "ּ",
+        "s" : "ּ",
+        "sa" : "ּ"
+      },
+      "ingush" : {
+        "a" : "]",
+        "n" : "]",
+        "s" : "[",
+        "sa" : "["
+      },
+      "irish" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "russian" : {
+        "a" : "]",
+        "n" : "]",
+        "s" : "[",
+        "sa" : "["
+      },
+      "russian_phonetic" : {
+        "a" : "†",
+        "n" : "щ",
+        "s" : "Щ",
+        "sa" : "`"
+      },
+      "russianwin" : {
+        "a" : "[",
+        "n" : "ё",
+        "s" : "Ë",
+        "sa" : "]"
+      },
+      "us" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "~",
+        "sa" : "`"
+      },
+      "usinternational_pc" : {
+        "a" : "`",
+        "n" : "`",
+        "s" : "˜",
+        "sa" : "`"
+      }
+    },
+    "Backslash" : {
+      "abc" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "australian" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "austrian" : {
+        "a" : "‘",
+        "n" : "#",
+        "s" : "'",
+        "sa" : "’"
+      },
+      "british" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "british_pc" : {
+        "a" : "«",
+        "n" : "#",
+        "s" : "~",
+        "sa" : "»"
+      },
+      "byelorussian" : {
+        "a" : "}",
+        "n" : "ё",
+        "s" : "Ё",
+        "sa" : "{"
+      },
+      "canadian" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "canadian_csa" : {
+        "a" : "`",
+        "n" : "à",
+        "s" : "À",
+        "sa" : "`"
+      },
+      "canadianfrench_pc" : {
+        "a" : "«",
+        "n" : "<",
+        "s" : ">",
+        "sa" : "»"
+      },
+      "colemak" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "dvorak" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "dvorak_left" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "dvorak_right" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "hebrew" : {
+        "a" : "־",
+        "n" : "ֿ",
+        "s" : "|",
+        "sa" : "־"
+      },
+      "hebrew_pc" : {
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "־"
+      },
+      "hebrew_qwerty" : {
+        "a" : "־",
+        "n" : "ֿ",
+        "s" : "-",
+        "sa" : "ֿ"
+      },
+      "ingush" : {
+        "a" : "ё",
+        "n" : "ё",
+        "s" : "Ё",
+        "sa" : "Ё"
+      },
+      "irish" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "russian" : {
+        "a" : "ё",
+        "n" : "ё",
+        "s" : "Ё",
+        "sa" : "Ё"
+      },
+      "russian_phonetic" : {
+        "a" : "є",
+        "n" : "э",
+        "s" : "Э",
+        "sa" : "Є"
+      },
+      "russianwin" : {
+        "a" : "\\",
+        "n" : "\\",
+        "s" : "\/",
+        "sa" : "|"
+      },
+      "us" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      },
+      "usinternational_pc" : {
+        "a" : "«",
+        "n" : "\\",
+        "s" : "|",
+        "sa" : "»"
+      }
+    },
+    "BracketLeft" : {
+      "abc" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "australian" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "austrian" : {
+        "a" : "•",
+        "n" : "ü",
+        "s" : "Ü",
+        "sa" : "°"
+      },
+      "british" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "british_pc" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "byelorussian" : {
+        "a" : "”",
+        "n" : "х",
+        "s" : "Х",
+        "sa" : "“"
+      },
+      "canadian" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "canadian_csa" : {
+        "a" : "`",
+        "n" : "^",
+        "s" : "¨",
+        "sa" : "„"
+      },
+      "canadianfrench_pc" : {
+        "a" : "[",
+        "n" : "^",
+        "s" : "^",
+        "sa" : "{"
+      },
+      "colemak" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "dvorak" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "dvorak_left" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "dvorak_right" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "hebrew" : {
+        "n" : "]",
+        "s" : "}"
+      },
+      "hebrew_pc" : {
+        "n" : "]",
+        "s" : "}"
+      },
+      "hebrew_qwerty" : {
+        "a" : "]",
+        "n" : "’",
+        "s" : "}",
+        "sa" : "}"
+      },
+      "ingush" : {
+        "a" : "“",
+        "n" : "х",
+        "s" : "Х",
+        "sa" : "”"
+      },
+      "irish" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "russian" : {
+        "a" : "“",
+        "n" : "х",
+        "s" : "Х",
+        "sa" : "”"
+      },
+      "russian_phonetic" : {
+        "a" : "“",
+        "n" : "ю",
+        "s" : "Ю",
+        "sa" : "”"
+      },
+      "russianwin" : {
+        "a" : "“",
+        "n" : "х",
+        "s" : "Х",
+        "sa" : "”"
+      },
+      "us" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "usinternational_pc" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      }
+    },
+    "BracketRight" : {
+      "abc" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "australian" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "austrian" : {
+        "a" : "±",
+        "n" : "+",
+        "s" : "*",
+        "sa" : ""
+      },
+      "british" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "british_pc" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "byelorussian" : {
+        "a" : "ъ",
+        "n" : "'",
+        "s" : "'",
+        "sa" : "Ъ"
+      },
+      "canadian" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "canadian_csa" : {
+        "a" : "~",
+        "n" : "ç",
+        "s" : "Ç",
+        "sa" : "~"
+      },
+      "canadianfrench_pc" : {
+        "a" : "]",
+        "n" : "¸",
+        "s" : "¨",
+        "sa" : "}"
+      },
+      "colemak" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "dvorak" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "dvorak_left" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "dvorak_right" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "hebrew" : {
+        "n" : "[",
+        "s" : "{"
+      },
+      "hebrew_pc" : {
+        "n" : "[",
+        "s" : "{"
+      },
+      "hebrew_qwerty" : {
+        "a" : "[",
+        "n" : "ײַ",
+        "s" : "{",
+        "sa" : "{"
+      },
+      "ingush" : {
+        "a" : "ъ",
+        "n" : "ъ",
+        "s" : "Ъ",
+        "sa" : "Ъ"
+      },
+      "irish" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "russian" : {
+        "a" : "ъ",
+        "n" : "ъ",
+        "s" : "Ъ",
+        "sa" : "Ъ"
+      },
+      "russian_phonetic" : {
+        "a" : "џ",
+        "n" : "ж",
+        "s" : "Ж",
+        "sa" : "Џ"
+      },
+      "russianwin" : {
+        "a" : "«",
+        "n" : "ъ",
+        "s" : "Ъ",
+        "sa" : "»"
+      },
+      "us" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "usinternational_pc" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      }
+    },
+    "Comma" : {
+      "abc" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "australian" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "austrian" : {
+        "a" : "∞",
+        "n" : ",",
+        "s" : ";",
+        "sa" : "˛"
+      },
+      "british" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "british_pc" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "byelorussian" : {
+        "a" : "<",
+        "n" : "б",
+        "s" : "Б",
+        "sa" : "≤"
+      },
+      "canadian" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "canadian_csa" : {
+        "a" : "<",
+        "n" : ",",
+        "s" : "'",
+        "sa" : "x"
+      },
+      "canadianfrench_pc" : {
+        "a" : "‘",
+        "n" : ",",
+        "s" : "'",
+        "sa" : "’"
+      },
+      "colemak" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "dvorak" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "dvorak_left" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "dvorak_right" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "hebrew" : {
+        "a" : "ּ",
+        "n" : "ת",
+        "s" : ">",
+        "sa" : "ּ"
+      },
+      "hebrew_pc" : {
+        "n" : "ת",
+        "s" : ">",
+        "sa" : "ּ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "‘",
+        "n" : ",",
+        "s" : ">",
+        "sa" : "‘"
+      },
+      "ingush" : {
+        "a" : "≤",
+        "n" : "б",
+        "s" : "Б",
+        "sa" : "<"
+      },
+      "irish" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "„"
+      },
+      "russian" : {
+        "a" : "≤",
+        "n" : "б",
+        "s" : "Б",
+        "sa" : "<"
+      },
+      "russian_phonetic" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "÷"
+      },
+      "russianwin" : {
+        "a" : "≤",
+        "n" : "б",
+        "s" : "Б",
+        "sa" : "<"
+      },
+      "us" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "usinternational_pc" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      }
+    },
+    "Digit0" : {
+      "abc" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "australian" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "austrian" : {
+        "a" : "≠",
+        "n" : "0",
+        "s" : "=",
+        "sa" : "¯"
+      },
+      "british" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "british_pc" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "byelorussian" : {
+        "a" : ")",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "`"
+      },
+      "canadian" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "canadian_csa" : {
+        "a" : "]",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "—"
+      },
+      "canadianfrench_pc" : {
+        "a" : "°",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "¾"
+      },
+      "colemak" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "dvorak" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "dvorak_left" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "dvorak_right" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "hebrew" : {
+        "a" : "ְ",
+        "n" : "0",
+        "s" : "(",
+        "sa" : "ְ"
+      },
+      "hebrew_pc" : {
+        "n" : "0",
+        "s" : "(",
+        "sa" : "ְ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ְ",
+        "n" : "0",
+        "s" : "(",
+        "sa" : "ְ"
+      },
+      "ingush" : {
+        "a" : "}",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "`"
+      },
+      "irish" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "°"
+      },
+      "russian" : {
+        "a" : "}",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "`"
+      },
+      "russian_phonetic" : {
+        "a" : "]",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "}"
+      },
+      "russianwin" : {
+        "a" : ")",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "}"
+      },
+      "us" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "usinternational_pc" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      }
+    },
+    "Digit1" : {
+      "abc" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "australian" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "austrian" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "¬"
+      },
+      "british" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "british_pc" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "byelorussian" : {
+        "a" : "!",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "|"
+      },
+      "canadian" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "canadian_csa" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "≈"
+      },
+      "canadianfrench_pc" : {
+        "a" : "±",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "¡"
+      },
+      "colemak" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "dvorak" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "dvorak_left" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "dvorak_right" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "hebrew" : {
+        "a" : "ֲ",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "ֲ"
+      },
+      "hebrew_pc" : {
+        "n" : "1",
+        "s" : "!",
+        "sa" : "ֲ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֲ",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "ֲ"
+      },
+      "ingush" : {
+        "a" : "!",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "|"
+      },
+      "irish" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "russian" : {
+        "a" : "!",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "|"
+      },
+      "russian_phonetic" : {
+        "a" : "ї",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "Ї"
+      },
+      "russianwin" : {
+        "a" : "!",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "™"
+      },
+      "us" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "usinternational_pc" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      }
+    },
+    "Digit2" : {
+      "abc" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "australian" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "austrian" : {
+        "a" : "“",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "”"
+      },
+      "british" : {
+        "a" : "€",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "™"
+      },
+      "british_pc" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "€"
+      },
+      "byelorussian" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "\""
+      },
+      "canadian" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "canadian_csa" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "ı"
+      },
+      "canadianfrench_pc" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "″"
+      },
+      "colemak" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "dvorak" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "dvorak_left" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "dvorak_right" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "hebrew" : {
+        "a" : "ֳ",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "ֳ"
+      },
+      "hebrew_pc" : {
+        "n" : "2",
+        "s" : "@",
+        "sa" : "ֳ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֳ",
+        "n" : "2",
+        "s" : "“",
+        "sa" : "ֳ"
+      },
+      "ingush" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "\""
+      },
+      "irish" : {
+        "a" : "€",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "™"
+      },
+      "russian" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "\""
+      },
+      "russian_phonetic" : {
+        "a" : "ё",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "Ё"
+      },
+      "russianwin" : {
+        "a" : "@",
+        "n" : "2",
+        "s" : "\"",
+        "sa" : "§"
+      },
+      "us" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "usinternational_pc" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      }
+    },
+    "Digit3" : {
+      "abc" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "australian" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "austrian" : {
+        "a" : "¶",
+        "n" : "3",
+        "s" : "§",
+        "sa" : "#"
+      },
+      "british" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "£",
+        "sa" : "‹"
+      },
+      "british_pc" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "£",
+        "sa" : "‹"
+      },
+      "byelorussian" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "№",
+        "sa" : "£"
+      },
+      "canadian" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "canadian_csa" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "ˆ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "\/",
+        "sa" : "÷"
+      },
+      "colemak" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "dvorak" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "dvorak_left" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "dvorak_right" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "hebrew" : {
+        "a" : "ֱ",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "ֱ"
+      },
+      "hebrew_pc" : {
+        "n" : "3",
+        "s" : "#",
+        "sa" : "ֱ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֱ",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "ֱ"
+      },
+      "ingush" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "№",
+        "sa" : "£"
+      },
+      "irish" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "£",
+        "sa" : "‹"
+      },
+      "russian" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "№",
+        "sa" : "£"
+      },
+      "russian_phonetic" : {
+        "a" : "є",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "Є"
+      },
+      "russianwin" : {
+        "a" : "#",
+        "n" : "3",
+        "s" : "№",
+        "sa" : "£"
+      },
+      "us" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      },
+      "usinternational_pc" : {
+        "a" : "£",
+        "n" : "3",
+        "s" : "#",
+        "sa" : "‹"
+      }
+    },
+    "Digit4" : {
+      "abc" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "australian" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "austrian" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "£"
+      },
+      "british" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "british_pc" : {
+        "a" : "€",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "byelorussian" : {
+        "a" : "$",
+        "n" : "4",
+        "s" : "%",
+        "sa" : "€"
+      },
+      "canadian" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "canadian_csa" : {
+        "a" : "€",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "˜"
+      },
+      "canadianfrench_pc" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "¤"
+      },
+      "colemak" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "dvorak" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "dvorak_left" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "dvorak_right" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "hebrew" : {
+        "a" : "ִ",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "ִ"
+      },
+      "hebrew_pc" : {
+        "a" : "₪",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "ִ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ִ",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "ִ"
+      },
+      "ingush" : {
+        "a" : "$",
+        "n" : "4",
+        "s" : "%",
+        "sa" : "€"
+      },
+      "irish" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "russian" : {
+        "a" : "$",
+        "n" : "4",
+        "s" : "%",
+        "sa" : "€"
+      },
+      "russian_phonetic" : {
+        "a" : "ґ",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "Ґ"
+      },
+      "russianwin" : {
+        "a" : "$",
+        "n" : "4",
+        "s" : ";",
+        "sa" : "€"
+      },
+      "us" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "usinternational_pc" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      }
+    },
+    "Digit5" : {
+      "abc" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "australian" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "austrian" : {
+        "a" : "[",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "british" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "british_pc" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "byelorussian" : {
+        "a" : "%",
+        "n" : "5",
+        "s" : ":",
+        "sa" : "∞"
+      },
+      "canadian" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "canadian_csa" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : ""
+      },
+      "canadianfrench_pc" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "‰"
+      },
+      "colemak" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "dvorak" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "dvorak_left" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "dvorak_right" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "hebrew" : {
+        "a" : "ֵ",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ֵ"
+      },
+      "hebrew_pc" : {
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ֵ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֵ",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ֵ"
+      },
+      "ingush" : {
+        "a" : "%",
+        "n" : "5",
+        "s" : ":",
+        "sa" : "∞"
+      },
+      "irish" : {
+        "a" : "§",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "†"
+      },
+      "russian" : {
+        "a" : "%",
+        "n" : "5",
+        "s" : ":",
+        "sa" : "∞"
+      },
+      "russian_phonetic" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "™"
+      },
+      "russianwin" : {
+        "a" : "©",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "®"
+      },
+      "us" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "usinternational_pc" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      }
+    },
+    "Digit6" : {
+      "abc" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "australian" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "austrian" : {
+        "a" : "]",
+        "n" : "6",
+        "s" : "&",
+        "sa" : "^"
+      },
+      "british" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "british_pc" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "byelorussian" : {
+        "a" : "^",
+        "n" : "6",
+        "s" : ",",
+        "sa" : "¬"
+      },
+      "canadian" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "canadian_csa" : {
+        "a" : " ",
+        "n" : "6",
+        "s" : "?",
+        "sa" : "†"
+      },
+      "canadianfrench_pc" : {
+        "a" : "¬",
+        "n" : "6",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "colemak" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "dvorak" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "dvorak_left" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "dvorak_right" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "hebrew" : {
+        "a" : "ַ",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ַ"
+      },
+      "hebrew_pc" : {
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ַ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ַ",
+        "n" : "6",
+        "s" : "”",
+        "sa" : "ַ"
+      },
+      "ingush" : {
+        "a" : "^",
+        "n" : "6",
+        "s" : ",",
+        "sa" : "¬"
+      },
+      "irish" : {
+        "a" : "ˆ",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "^"
+      },
+      "russian" : {
+        "a" : "^",
+        "n" : "6",
+        "s" : ",",
+        "sa" : "¬"
+      },
+      "russian_phonetic" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "&"
+      },
+      "russianwin" : {
+        "a" : "^",
+        "n" : "6",
+        "s" : ":",
+        "sa" : "¬"
+      },
+      "us" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "usinternational_pc" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "ˆ",
+        "sa" : "ﬂ"
+      }
+    },
+    "Digit7" : {
+      "abc" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "australian" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "austrian" : {
+        "a" : "|",
+        "n" : "7",
+        "s" : "\/",
+        "sa" : "\\"
+      },
+      "british" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "british_pc" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "byelorussian" : {
+        "a" : "&",
+        "n" : "7",
+        "s" : ".",
+        "sa" : "¶"
+      },
+      "canadian" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "canadian_csa" : {
+        "a" : "{",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "canadianfrench_pc" : {
+        "a" : "¦",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "⅋"
+      },
+      "colemak" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "dvorak" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "dvorak_left" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "dvorak_right" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "hebrew" : {
+        "a" : "ָ",
+        "n" : "7",
+        "s" : "₪",
+        "sa" : "ָ"
+      },
+      "hebrew_pc" : {
+        "n" : "7",
+        "s" : "&",
+        "sa" : "ָ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ָ",
+        "n" : "7",
+        "s" : "₪",
+        "sa" : "ָ"
+      },
+      "ingush" : {
+        "a" : "&",
+        "n" : "7",
+        "s" : ".",
+        "sa" : "¶"
+      },
+      "irish" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "&"
+      },
+      "russian" : {
+        "a" : "&",
+        "n" : "7",
+        "s" : ".",
+        "sa" : "¶"
+      },
+      "russian_phonetic" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "№"
+      },
+      "russianwin" : {
+        "a" : "&",
+        "n" : "7",
+        "s" : "?",
+        "sa" : "¶"
+      },
+      "us" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "usinternational_pc" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      }
+    },
+    "Digit8" : {
+      "abc" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "australian" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "austrian" : {
+        "a" : "{",
+        "n" : "8",
+        "s" : "(",
+        "sa" : "˜"
+      },
+      "british" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "british_pc" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "byelorussian" : {
+        "a" : "*",
+        "n" : "8",
+        "s" : ";",
+        "sa" : "–"
+      },
+      "canadian" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "canadian_csa" : {
+        "a" : "}",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "•"
+      },
+      "canadianfrench_pc" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "¼"
+      },
+      "colemak" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "dvorak" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "dvorak_left" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "dvorak_right" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "hebrew" : {
+        "a" : "ֻ",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "ֻ"
+      },
+      "hebrew_pc" : {
+        "n" : "8",
+        "s" : "*",
+        "sa" : "ֻ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֻ",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "ֻ"
+      },
+      "ingush" : {
+        "a" : "*",
+        "n" : "8",
+        "s" : ";",
+        "sa" : "√"
+      },
+      "irish" : {
+        "a" : "¨",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "•"
+      },
+      "russian" : {
+        "a" : "*",
+        "n" : "8",
+        "s" : ";",
+        "sa" : "√"
+      },
+      "russian_phonetic" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "russianwin" : {
+        "a" : "₽",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "us" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "usinternational_pc" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      }
+    },
+    "Digit9" : {
+      "abc" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "australian" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "austrian" : {
+        "a" : "}",
+        "n" : "9",
+        "s" : ")",
+        "sa" : "·"
+      },
+      "british" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "british_pc" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "byelorussian" : {
+        "a" : "(",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "'"
+      },
+      "canadian" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "canadian_csa" : {
+        "a" : "[",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "±"
+      },
+      "canadianfrench_pc" : {
+        "a" : "†",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "½"
+      },
+      "colemak" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "dvorak" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "dvorak_left" : {
+        "a" : "¢",
+        "n" : "4",
+        "s" : "$",
+        "sa" : "›"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "dvorak_right" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "hebrew" : {
+        "a" : "ֶ",
+        "n" : "9",
+        "s" : ")",
+        "sa" : "ֶ"
+      },
+      "hebrew_pc" : {
+        "n" : "9",
+        "s" : ")",
+        "sa" : "ֶ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֶ",
+        "n" : "9",
+        "s" : ")",
+        "sa" : "ֶ"
+      },
+      "ingush" : {
+        "a" : "{",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "'"
+      },
+      "irish" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "russian" : {
+        "a" : "{",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "'"
+      },
+      "russian_phonetic" : {
+        "a" : "[",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "{"
+      },
+      "russianwin" : {
+        "a" : "(",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "{"
+      },
+      "us" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "usinternational_pc" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      }
+    },
+    "Equal" : {
+      "abc" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "australian" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "austrian" : {
+        "a" : "'",
+        "n" : "´",
+        "s" : "`",
+        "sa" : "˚"
+      },
+      "british" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "british_pc" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "byelorussian" : {
+        "a" : "=",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "+"
+      },
+      "canadian" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "canadian_csa" : {
+        "a" : "¬",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "–"
+      },
+      "canadianfrench_pc" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "colemak" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "dvorak" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "dvorak_left" : {
+        "a" : "¡",
+        "n" : "1",
+        "s" : "!",
+        "sa" : "⁄"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "dvorak_right" : {
+        "a" : "‘",
+        "n" : "]",
+        "s" : "}",
+        "sa" : "’"
+      },
+      "hebrew" : {
+        "a" : "ֹ",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "ֹ"
+      },
+      "hebrew_pc" : {
+        "n" : "=",
+        "s" : "+",
+        "sa" : "ֹ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "-",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "+"
+      },
+      "ingush" : {
+        "a" : "»",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "«"
+      },
+      "irish" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "russian" : {
+        "a" : "»",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "«"
+      },
+      "russian_phonetic" : {
+        "a" : "=",
+        "n" : "ъ",
+        "s" : "Ъ",
+        "sa" : "+"
+      },
+      "russianwin" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "≈"
+      },
+      "us" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      },
+      "usinternational_pc" : {
+        "a" : "≠",
+        "n" : "=",
+        "s" : "+",
+        "sa" : "±"
+      }
+    },
+    "KeyA" : {
+      "abc" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "australian" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "austrian" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "british" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "british_pc" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "byelorussian" : {
+        "a" : "ƒ",
+        "n" : "ф",
+        "s" : "Ф",
+        "sa" : "ƒ"
+      },
+      "canadian" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "canadian_csa" : {
+        "a" : "æ",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Æ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "æ",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Æ"
+      },
+      "colemak" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "dvorak" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "dvorak_left" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "dvorak_right" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "hebrew" : {
+        "a" : "שׂ",
+        "n" : "ש",
+        "s" : "שׁ",
+        "sa" : "שׂ"
+      },
+      "hebrew_pc" : {
+        "a" : "‎",
+        "n" : "ש",
+        "s" : "A"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ַ",
+        "n" : "א",
+        "s" : "ָ",
+        "sa" : "ֲ"
+      },
+      "ingush" : {
+        "a" : "ƒ",
+        "n" : "ф",
+        "s" : "Ф",
+        "sa" : "ƒ"
+      },
+      "irish" : {
+        "a" : "á",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Á"
+      },
+      "russian" : {
+        "a" : "ƒ",
+        "n" : "ф",
+        "s" : "Ф",
+        "sa" : "ƒ"
+      },
+      "russian_phonetic" : {
+        "a" : "ї",
+        "n" : "а",
+        "s" : "А",
+        "sa" : "Ї"
+      },
+      "russianwin" : {
+        "a" : "d",
+        "n" : "ф",
+        "s" : "Ф",
+        "sa" : "d"
+      },
+      "us" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "usinternational_pc" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      }
+    },
+    "KeyB" : {
+      "abc" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "australian" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "austrian" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "‹"
+      },
+      "british" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "british_pc" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "byelorussian" : {
+        "a" : "и",
+        "n" : "і",
+        "s" : "І",
+        "sa" : "И"
+      },
+      "canadian" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "canadian_csa" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "≤"
+      },
+      "canadianfrench_pc" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B"
+      },
+      "colemak" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "dvorak" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "dvorak_left" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "dvorak_right" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "hebrew" : {
+        "a" : "‘",
+        "n" : "נ",
+        "sa" : "֜"
+      },
+      "hebrew_pc" : {
+        "n" : "נ",
+        "s" : "B",
+        "sa" : "֜"
+      },
+      "hebrew_qwerty" : {
+        "a" : "‘",
+        "n" : "ב",
+        "s" : "ּ",
+        "sa" : "֜"
+      },
+      "ingush" : {
+        "a" : "и",
+        "n" : "и",
+        "s" : "И",
+        "sa" : "И"
+      },
+      "irish" : {
+        "a" : "˘",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ﬂ"
+      },
+      "russian" : {
+        "a" : "и",
+        "n" : "и",
+        "s" : "И",
+        "sa" : "И"
+      },
+      "russian_phonetic" : {
+        "a" : "№",
+        "n" : "б",
+        "s" : "Б",
+        "sa" : "№"
+      },
+      "russianwin" : {
+        "a" : "і",
+        "n" : "и",
+        "s" : "И",
+        "sa" : "І"
+      },
+      "us" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "usinternational_pc" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      }
+    },
+    "KeyC" : {
+      "abc" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "australian" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "austrian" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "british" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "british_pc" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "byelorussian" : {
+        "a" : "≠",
+        "n" : "с",
+        "s" : "С",
+        "sa" : "≠"
+      },
+      "canadian" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "canadian_csa" : {
+        "a" : "¢",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "†"
+      },
+      "canadianfrench_pc" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "colemak" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "dvorak" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "dvorak_left" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "dvorak_right" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "hebrew" : {
+        "a" : "“",
+        "n" : "ב",
+        "s" : "לֹ",
+        "sa" : "֞"
+      },
+      "hebrew_pc" : {
+        "n" : "ב",
+        "s" : "C",
+        "sa" : "֞"
+      },
+      "hebrew_qwerty" : {
+        "a" : "“",
+        "n" : "צ",
+        "s" : "ץ",
+        "sa" : "֞"
+      },
+      "ingush" : {
+        "a" : "≠",
+        "n" : "с",
+        "s" : "С",
+        "sa" : "≠"
+      },
+      "irish" : {
+        "a" : "¸",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "¸"
+      },
+      "russian" : {
+        "a" : "≠",
+        "n" : "с",
+        "s" : "С",
+        "sa" : "≠"
+      },
+      "russian_phonetic" : {
+        "a" : "©",
+        "n" : "ц",
+        "s" : "Ц",
+        "sa" : "©"
+      },
+      "russianwin" : {
+        "a" : "c",
+        "n" : "с",
+        "s" : "С",
+        "sa" : "C"
+      },
+      "us" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "usinternational_pc" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      }
+    },
+    "KeyD" : {
+      "abc" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "australian" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "austrian" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "™"
+      },
+      "british" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "british_pc" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "byelorussian" : {
+        "a" : "ћ",
+        "n" : "в",
+        "s" : "В",
+        "sa" : "Ћ"
+      },
+      "canadian" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "canadian_csa" : {
+        "a" : "ª",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "ˇ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "∆"
+      },
+      "colemak" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "dvorak" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "dvorak_left" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "dvorak_right" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "hebrew" : {
+        "a" : "‏",
+        "n" : "ג",
+        "s" : "„"
+      },
+      "hebrew_pc" : {
+        "a" : "‏",
+        "n" : "ג",
+        "s" : "D"
+      },
+      "hebrew_qwerty" : {
+        "n" : "ד",
+        "s" : "„"
+      },
+      "ingush" : {
+        "n" : "в",
+        "s" : "В"
+      },
+      "irish" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "∫"
+      },
+      "russian" : {
+        "a" : "ћ",
+        "n" : "в",
+        "s" : "В",
+        "sa" : "Ћ"
+      },
+      "russian_phonetic" : {
+        "a" : "ђ",
+        "n" : "д",
+        "s" : "Д",
+        "sa" : "Ђ"
+      },
+      "russianwin" : {
+        "a" : "ћ",
+        "n" : "в",
+        "s" : "В",
+        "sa" : "Ћ"
+      },
+      "us" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "usinternational_pc" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      }
+    },
+    "KeyE" : {
+      "abc" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "australian" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "austrian" : {
+        "a" : "€",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "‰"
+      },
+      "british" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "‰"
+      },
+      "british_pc" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "byelorussian" : {
+        "a" : "ќ",
+        "n" : "у",
+        "s" : "У",
+        "sa" : "Ќ"
+      },
+      "canadian" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "canadian_csa" : {
+        "a" : "∂",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "¯"
+      },
+      "canadianfrench_pc" : {
+        "a" : "€",
+        "n" : "e",
+        "s" : "E"
+      },
+      "colemak" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "dvorak" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "dvorak_left" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "dvorak_right" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "hebrew" : {
+        "n" : "ק"
+      },
+      "hebrew_pc" : {
+        "a" : "€",
+        "n" : "ק",
+        "s" : "E"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֶ",
+        "n" : "ע",
+        "s" : "ֵ",
+        "sa" : "ֱ"
+      },
+      "ingush" : {
+        "n" : "у",
+        "s" : "У"
+      },
+      "irish" : {
+        "a" : "é",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "É"
+      },
+      "russian" : {
+        "a" : "ќ",
+        "n" : "у",
+        "s" : "У",
+        "sa" : "Ќ"
+      },
+      "russian_phonetic" : {
+        "a" : "ё",
+        "n" : "е",
+        "s" : "Е",
+        "sa" : "Ё"
+      },
+      "russianwin" : {
+        "a" : "ў",
+        "n" : "у",
+        "s" : "У",
+        "sa" : "Ў"
+      },
+      "us" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "usinternational_pc" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      }
+    },
+    "KeyF" : {
+      "abc" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "australian" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "austrian" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "british" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "british_pc" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "byelorussian" : {
+        "a" : "÷",
+        "n" : "а",
+        "s" : "А",
+        "sa" : "÷"
+      },
+      "canadian" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "canadian_csa" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "ﬂ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F"
+      },
+      "colemak" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "dvorak" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "dvorak_left" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "dvorak_right" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "hebrew" : {
+        "a" : "€",
+        "n" : "כ",
+        "sa" : "€"
+      },
+      "hebrew_pc" : {
+        "n" : "כ",
+        "s" : "F",
+        "sa" : "€"
+      },
+      "hebrew_qwerty" : {
+        "n" : "פ",
+        "s" : "ף",
+        "sa" : "€"
+      },
+      "ingush" : {
+        "a" : "÷",
+        "n" : "а",
+        "s" : "А",
+        "sa" : "÷"
+      },
+      "irish" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "∑"
+      },
+      "russian" : {
+        "a" : "÷",
+        "n" : "а",
+        "s" : "А",
+        "sa" : "÷"
+      },
+      "russian_phonetic" : {
+        "a" : "ƒ",
+        "n" : "ф",
+        "s" : "Ф",
+        "sa" : "∆"
+      },
+      "russianwin" : {
+        "a" : "÷",
+        "n" : "а",
+        "s" : "А",
+        "sa" : "±"
+      },
+      "us" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "usinternational_pc" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      }
+    },
+    "KeyG" : {
+      "abc" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "australian" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "austrian" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "Ì"
+      },
+      "british" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "Ì"
+      },
+      "british_pc" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "byelorussian" : {
+        "a" : "©",
+        "n" : "п",
+        "s" : "П",
+        "sa" : "©"
+      },
+      "canadian" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "canadian_csa" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "ﬁ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G"
+      },
+      "colemak" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "dvorak" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "dvorak_left" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "dvorak_right" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "hebrew" : {
+        "a" : "֞",
+        "n" : "ע"
+      },
+      "hebrew_pc" : {
+        "n" : "ע",
+        "s" : "G"
+      },
+      "hebrew_qwerty" : {
+        "n" : "ג"
+      },
+      "ingush" : {
+        "a" : "©",
+        "n" : "п",
+        "s" : "П",
+        "sa" : "©"
+      },
+      "irish" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "©"
+      },
+      "russian" : {
+        "a" : "©",
+        "n" : "п",
+        "s" : "П",
+        "sa" : "©"
+      },
+      "russian_phonetic" : {
+        "a" : "ѓ",
+        "n" : "г",
+        "s" : "Г",
+        "sa" : "Ѓ"
+      },
+      "russianwin" : {
+        "a" : "…",
+        "n" : "п",
+        "s" : "П",
+        "sa" : "√"
+      },
+      "us" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "usinternational_pc" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      }
+    },
+    "KeyH" : {
+      "abc" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "australian" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "austrian" : {
+        "a" : "ª",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "british" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "british_pc" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "byelorussian" : {
+        "a" : "√",
+        "n" : "р",
+        "s" : "Р",
+        "sa" : "√"
+      },
+      "canadian" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "canadian_csa" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "·"
+      },
+      "canadianfrench_pc" : {
+        "n" : "h",
+        "s" : "H"
+      },
+      "colemak" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "dvorak" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "dvorak_left" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "dvorak_right" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "hebrew" : {
+        "a" : "ײַ",
+        "n" : "י",
+        "sa" : "ײַ"
+      },
+      "hebrew_pc" : {
+        "a" : "ײ",
+        "n" : "י",
+        "s" : "H",
+        "sa" : "ײַ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ח",
+        "n" : "ה",
+        "s" : "ח",
+        "sa" : "ח"
+      },
+      "ingush" : {
+        "a" : "₽",
+        "n" : "р",
+        "s" : "Р",
+        "sa" : "₽"
+      },
+      "irish" : {
+        "a" : "µ",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "∆"
+      },
+      "russian" : {
+        "a" : "₽",
+        "n" : "р",
+        "s" : "Р",
+        "sa" : "₽"
+      },
+      "russian_phonetic" : {
+        "a" : "ґ",
+        "n" : "ч",
+        "s" : "Ч",
+        "sa" : "Ґ"
+      },
+      "russianwin" : {
+        "a" : "•",
+        "n" : "р",
+        "s" : "Р",
+        "sa" : "∞"
+      },
+      "us" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "usinternational_pc" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      }
+    },
+    "KeyI" : {
+      "abc" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "australian" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "austrian" : {
+        "a" : "⁄",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "Û"
+      },
+      "british" : {
+        "a" : "^",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "È"
+      },
+      "british_pc" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "byelorussian" : {
+        "a" : "ѕ",
+        "n" : "ш",
+        "s" : "Ш",
+        "sa" : "Ѕ"
+      },
+      "canadian" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "canadian_csa" : {
+        "a" : "π",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "∏"
+      },
+      "canadianfrench_pc" : {
+        "a" : "§",
+        "n" : "i",
+        "s" : "I"
+      },
+      "colemak" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "dvorak" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "dvorak_left" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "dvorak_right" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "hebrew" : {
+        "n" : "ן"
+      },
+      "hebrew_pc" : {
+        "n" : "ן",
+        "s" : "I"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ִ",
+        "n" : "י",
+        "s" : "ײַ",
+        "sa" : "ִ"
+      },
+      "ingush" : {
+        "a" : "щ",
+        "n" : "ш",
+        "s" : "Ш",
+        "sa" : "Щ"
+      },
+      "irish" : {
+        "a" : "í",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "Í"
+      },
+      "russian" : {
+        "a" : "ѕ",
+        "n" : "ш",
+        "s" : "Ш",
+        "sa" : "Ѕ"
+      },
+      "russian_phonetic" : {
+        "a" : "і",
+        "n" : "и",
+        "s" : "И",
+        "sa" : "І"
+      },
+      "russianwin" : {
+        "a" : "ѕ",
+        "n" : "ш",
+        "s" : "Ш",
+        "sa" : "Ѕ"
+      },
+      "us" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "usinternational_pc" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      }
+    },
+    "KeyJ" : {
+      "abc" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "australian" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "austrian" : {
+        "a" : "º",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "ı"
+      },
+      "british" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "british_pc" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "byelorussian" : {
+        "a" : "°",
+        "n" : "о",
+        "s" : "О",
+        "sa" : "•"
+      },
+      "canadian" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "canadian_csa" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "‚"
+      },
+      "canadianfrench_pc" : {
+        "n" : "j",
+        "s" : "J"
+      },
+      "colemak" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "dvorak" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "dvorak_left" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "˙",
+        "n" : "h",
+        "s" : "H",
+        "sa" : "Ó"
+      },
+      "dvorak_right" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "hebrew" : {
+        "a" : "”",
+        "n" : "ח"
+      },
+      "hebrew_pc" : {
+        "a" : "ױ",
+        "n" : "ח",
+        "s" : "J"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ִ",
+        "n" : "ח",
+        "sa" : "ִ"
+      },
+      "ingush" : {
+        "a" : "°",
+        "n" : "о",
+        "s" : "О",
+        "sa" : "•"
+      },
+      "irish" : {
+        "a" : "˝",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "˝"
+      },
+      "russian" : {
+        "a" : "°",
+        "n" : "о",
+        "s" : "О",
+        "sa" : "•"
+      },
+      "russian_phonetic" : {
+        "a" : "ј",
+        "n" : "й",
+        "s" : "Й",
+        "sa" : "Ј"
+      },
+      "russianwin" : {
+        "a" : "∆",
+        "n" : "о",
+        "s" : "О",
+        "sa" : "µ"
+      },
+      "us" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "usinternational_pc" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      }
+    },
+    "KeyK" : {
+      "abc" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "australian" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "austrian" : {
+        "a" : "∆",
+        "n" : "k",
+        "s" : "K",
+        "sa" : "ˆ"
+      },
+      "british" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "british_pc" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "byelorussian" : {
+        "a" : "љ",
+        "n" : "л",
+        "s" : "Л",
+        "sa" : "Љ"
+      },
+      "canadian" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "canadian_csa" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : "⁄"
+      },
+      "canadianfrench_pc" : {
+        "a" : "",
+        "n" : "k",
+        "s" : "K"
+      },
+      "colemak" : {
+        "a" : "´",
+        "n" : "e",
+        "s" : "E",
+        "sa" : "´"
+      },
+      "dvorak" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "dvorak_left" : {
+        "a" : "å",
+        "n" : "a",
+        "s" : "A",
+        "sa" : "Å"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "dvorak_right" : {
+        "a" : "∂",
+        "n" : "d",
+        "s" : "D",
+        "sa" : "Î"
+      },
+      "hebrew" : {
+        "a" : "֜",
+        "n" : "ל",
+        "s" : "לֹ"
+      },
+      "hebrew_pc" : {
+        "n" : "ל",
+        "s" : "K"
+      },
+      "hebrew_qwerty" : {
+        "n" : "כ",
+        "s" : "ך"
+      },
+      "ingush" : {
+        "n" : "л",
+        "s" : "Л"
+      },
+      "irish" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "russian" : {
+        "a" : "љ",
+        "n" : "л",
+        "s" : "Л",
+        "sa" : "Љ"
+      },
+      "russian_phonetic" : {
+        "a" : "ќ",
+        "n" : "к",
+        "s" : "К",
+        "sa" : "Ќ"
+      },
+      "russianwin" : {
+        "a" : "љ",
+        "n" : "л",
+        "s" : "Л",
+        "sa" : "Љ"
+      },
+      "us" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "usinternational_pc" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      }
+    },
+    "KeyL" : {
+      "abc" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "australian" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "austrian" : {
+        "a" : "@",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "ﬂ"
+      },
+      "british" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "british_pc" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "byelorussian" : {
+        "a" : "∆",
+        "n" : "д",
+        "s" : "Д",
+        "sa" : "∆"
+      },
+      "canadian" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "canadian_csa" : {
+        "a" : " ",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "…"
+      },
+      "canadianfrench_pc" : {
+        "a" : "ø",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ø"
+      },
+      "colemak" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "dvorak" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "dvorak_left" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "dvorak_right" : {
+        "a" : "ç",
+        "n" : "c",
+        "s" : "C",
+        "sa" : "Ç"
+      },
+      "hebrew" : {
+        "a" : "’",
+        "n" : "ך"
+      },
+      "hebrew_pc" : {
+        "n" : "ך",
+        "s" : "L"
+      },
+      "hebrew_qwerty" : {
+        "n" : "ל",
+        "s" : "לֹ"
+      },
+      "ingush" : {
+        "a" : "∆",
+        "n" : "д",
+        "s" : "Д",
+        "sa" : "∆"
+      },
+      "irish" : {
+        "a" : "π",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "¬"
+      },
+      "russian" : {
+        "a" : "∆",
+        "n" : "д",
+        "s" : "Д",
+        "sa" : "∆"
+      },
+      "russian_phonetic" : {
+        "a" : "љ",
+        "n" : "л",
+        "s" : "Л",
+        "sa" : "Љ"
+      },
+      "russianwin" : {
+        "a" : "l",
+        "n" : "д",
+        "s" : "Д",
+        "sa" : "L"
+      },
+      "us" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "usinternational_pc" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      }
+    },
+    "KeyM" : {
+      "abc" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "australian" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "austrian" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "˘"
+      },
+      "british" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "˜"
+      },
+      "british_pc" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "byelorussian" : {
+        "a" : "~",
+        "n" : "ь",
+        "s" : "Ь",
+        "sa" : "~"
+      },
+      "canadian" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "canadian_csa" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "º"
+      },
+      "canadianfrench_pc" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M"
+      },
+      "colemak" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "dvorak" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "dvorak_left" : {
+        "a" : "ˆ",
+        "n" : "i",
+        "s" : "I",
+        "sa" : "ˆ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "dvorak_right" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "hebrew" : {
+        "a" : "שׁ",
+        "n" : "צ",
+        "sa" : "שׁ"
+      },
+      "hebrew_pc" : {
+        "n" : "צ",
+        "s" : "M",
+        "sa" : "שׁ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ם",
+        "n" : "מ",
+        "s" : "ם",
+        "sa" : "ם"
+      },
+      "ingush" : {
+        "a" : "~",
+        "n" : "ь",
+        "s" : "Ь",
+        "sa" : "~"
+      },
+      "irish" : {
+        "a" : "˛",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "˛"
+      },
+      "russian" : {
+        "a" : "~",
+        "n" : "ь",
+        "s" : "Ь",
+        "sa" : "~"
+      },
+      "russian_phonetic" : {
+        "a" : "µ",
+        "n" : "м",
+        "s" : "М",
+        "sa" : "µ"
+      },
+      "russianwin" : {
+        "a" : "m",
+        "n" : "ь",
+        "s" : "Ь",
+        "sa" : "M"
+      },
+      "us" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      },
+      "usinternational_pc" : {
+        "a" : "µ",
+        "n" : "m",
+        "s" : "M",
+        "sa" : "Â"
+      }
+    },
+    "KeyN" : {
+      "abc" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "australian" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "austrian" : {
+        "a" : "~",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "›"
+      },
+      "british" : {
+        "a" : "~",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "ˆ"
+      },
+      "british_pc" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "byelorussian" : {
+        "a" : "™",
+        "n" : "т",
+        "s" : "Т",
+        "sa" : "™"
+      },
+      "canadian" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "canadian_csa" : {
+        "a" : " ",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "≥"
+      },
+      "canadianfrench_pc" : {
+        "a" : "ñ",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "Ñ"
+      },
+      "colemak" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "dvorak" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "dvorak_left" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "dvorak_right" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "hebrew" : {
+        "a" : "’",
+        "n" : "מ",
+        "sa" : "’"
+      },
+      "hebrew_pc" : {
+        "n" : "מ",
+        "s" : "N",
+        "sa" : "’"
+      },
+      "hebrew_qwerty" : {
+        "a" : "’",
+        "n" : "נ",
+        "s" : "ן",
+        "sa" : "’"
+      },
+      "ingush" : {
+        "a" : "™",
+        "n" : "т",
+        "s" : "Т",
+        "sa" : "™"
+      },
+      "irish" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "russian" : {
+        "a" : "™",
+        "n" : "т",
+        "s" : "Т",
+        "sa" : "™"
+      },
+      "russian_phonetic" : {
+        "a" : "њ",
+        "n" : "н",
+        "s" : "Н",
+        "sa" : "Њ"
+      },
+      "russianwin" : {
+        "a" : "ƒ",
+        "n" : "т",
+        "s" : "Т",
+        "sa" : "ƒ"
+      },
+      "us" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      },
+      "usinternational_pc" : {
+        "a" : "˜",
+        "n" : "n",
+        "s" : "N",
+        "sa" : "˜"
+      }
+    },
+    "KeyO" : {
+      "abc" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "australian" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "austrian" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "british" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "british_pc" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "byelorussian" : {
+        "a" : "ў",
+        "n" : "ў",
+        "s" : "Ў",
+        "sa" : "Ў"
+      },
+      "canadian" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "canadian_csa" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "canadianfrench_pc" : {
+        "a" : "œ",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Œ"
+      },
+      "colemak" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "dvorak" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "dvorak_left" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "dvorak_right" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "hebrew" : {
+        "n" : "ם"
+      },
+      "hebrew_pc" : {
+        "n" : "ם",
+        "s" : "O"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֹ",
+        "n" : "ו",
+        "s" : "וֹ",
+        "sa" : "ֹ"
+      },
+      "ingush" : {
+        "a" : "ӏ",
+        "n" : "Ӏ",
+        "s" : "Ӏ"
+      },
+      "irish" : {
+        "a" : "ó",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ó"
+      },
+      "russian" : {
+        "a" : "ў",
+        "n" : "щ",
+        "s" : "Щ",
+        "sa" : "Ў"
+      },
+      "russian_phonetic" : {
+        "a" : "«",
+        "n" : "о",
+        "s" : "О",
+        "sa" : "‘"
+      },
+      "russianwin" : {
+        "a" : "'",
+        "n" : "щ",
+        "s" : "Щ",
+        "sa" : "„"
+      },
+      "us" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "usinternational_pc" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      }
+    },
+    "KeyP" : {
+      "abc" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "australian" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "austrian" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "british" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "british_pc" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "byelorussian" : {
+        "a" : "’",
+        "n" : "з",
+        "s" : "З",
+        "sa" : "‘"
+      },
+      "canadian" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "canadian_csa" : {
+        "a" : "“",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "”"
+      },
+      "canadianfrench_pc" : {
+        "a" : "¶",
+        "n" : "p",
+        "s" : "P"
+      },
+      "colemak" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "dvorak" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "dvorak_left" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "dvorak_right" : {
+        "a" : "∫",
+        "n" : "b",
+        "s" : "B",
+        "sa" : "ı"
+      },
+      "hebrew" : {
+        "n" : "פ"
+      },
+      "hebrew_pc" : {
+        "n" : "פ",
+        "s" : "P"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ְ",
+        "n" : "פ",
+        "s" : "ף",
+        "sa" : "ְ"
+      },
+      "ingush" : {
+        "a" : "‘",
+        "n" : "з",
+        "s" : "З",
+        "sa" : "’"
+      },
+      "irish" : {
+        "a" : "‚",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "russian" : {
+        "a" : "‘",
+        "n" : "з",
+        "s" : "З",
+        "sa" : "’"
+      },
+      "russian_phonetic" : {
+        "a" : "»",
+        "n" : "п",
+        "s" : "П",
+        "sa" : "’"
+      },
+      "russianwin" : {
+        "a" : "‘",
+        "n" : "з",
+        "s" : "З",
+        "sa" : "’"
+      },
+      "us" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "usinternational_pc" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      }
+    },
+    "KeyQ" : {
+      "abc" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "australian" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "austrian" : {
+        "a" : "«",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "»"
+      },
+      "british" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "british_pc" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "byelorussian" : {
+        "a" : "ј",
+        "n" : "й",
+        "s" : "Й",
+        "sa" : "Ј"
+      },
+      "canadian" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "canadian_csa" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "canadianfrench_pc" : {
+        "a" : "π",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "∏"
+      },
+      "colemak" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "dvorak" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "dvorak_left" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "dvorak_right" : {
+        "a" : "∞",
+        "n" : "5",
+        "s" : "%",
+        "sa" : "ﬁ"
+      },
+      "hebrew" : {
+        "a" : "…",
+        "n" : "\/",
+        "sa" : "…"
+      },
+      "hebrew_pc" : {
+        "n" : "\/",
+        "s" : "Q",
+        "sa" : "…"
+      },
+      "hebrew_qwerty" : {
+        "n" : "ק"
+      },
+      "ingush" : {
+        "n" : "й",
+        "s" : "Й"
+      },
+      "irish" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "russian" : {
+        "a" : "ј",
+        "n" : "й",
+        "s" : "Й",
+        "sa" : "Ј"
+      },
+      "russian_phonetic" : {
+        "a" : "¬",
+        "n" : "я",
+        "s" : "Я",
+        "sa" : "±"
+      },
+      "russianwin" : {
+        "a" : "ј",
+        "n" : "й",
+        "s" : "Й",
+        "sa" : "Ј"
+      },
+      "us" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "usinternational_pc" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      }
+    },
+    "KeyR" : {
+      "abc" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "australian" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "austrian" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "¸"
+      },
+      "british" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "Â"
+      },
+      "british_pc" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "byelorussian" : {
+        "a" : "®",
+        "n" : "к",
+        "s" : "К",
+        "sa" : "®"
+      },
+      "canadian" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "canadian_csa" : {
+        "a" : "¶",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "®"
+      },
+      "canadianfrench_pc" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R"
+      },
+      "colemak" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "dvorak" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "dvorak_left" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "π",
+        "n" : "p",
+        "s" : "P",
+        "sa" : "∏"
+      },
+      "dvorak_right" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "hebrew" : {
+        "n" : "ר"
+      },
+      "hebrew_pc" : {
+        "n" : "ר",
+        "s" : "R"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ָ",
+        "n" : "ר",
+        "sa" : "ֳ"
+      },
+      "ingush" : {
+        "a" : "®",
+        "n" : "к",
+        "s" : "К",
+        "sa" : "®"
+      },
+      "irish" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "russian" : {
+        "a" : "®",
+        "n" : "к",
+        "s" : "К",
+        "sa" : "®"
+      },
+      "russian_phonetic" : {
+        "a" : "₽",
+        "n" : "р",
+        "s" : "Р",
+        "sa" : "®"
+      },
+      "russianwin" : {
+        "a" : "ќ",
+        "n" : "к",
+        "s" : "К",
+        "sa" : "Ќ"
+      },
+      "us" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "usinternational_pc" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      }
+    },
+    "KeyS" : {
+      "abc" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "australian" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "austrian" : {
+        "a" : "‚",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "british" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "british_pc" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "byelorussian" : {
+        "a" : "ы",
+        "n" : "ы",
+        "s" : "Ы",
+        "sa" : "Ы"
+      },
+      "canadian" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "canadian_csa" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "§"
+      },
+      "canadianfrench_pc" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S"
+      },
+      "colemak" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "dvorak" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "dvorak_left" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "dvorak_right" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "hebrew" : {
+        "a" : "‎",
+        "n" : "ד"
+      },
+      "hebrew_pc" : {
+        "n" : "ד",
+        "s" : "S",
+        "sa" : "שׂ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "שׁ",
+        "n" : "ס",
+        "s" : "ש",
+        "sa" : "שׁ"
+      },
+      "ingush" : {
+        "a" : "ы",
+        "n" : "ы",
+        "s" : "Ы",
+        "sa" : "Ы"
+      },
+      "irish" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "´"
+      },
+      "russian" : {
+        "a" : "ы",
+        "n" : "ы",
+        "s" : "Ы",
+        "sa" : "Ы"
+      },
+      "russian_phonetic" : {
+        "a" : "ѕ",
+        "n" : "с",
+        "s" : "С",
+        "sa" : "Ѕ"
+      },
+      "russianwin" : {
+        "a" : "z",
+        "n" : "ы",
+        "s" : "Ы",
+        "sa" : "Z"
+      },
+      "us" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "usinternational_pc" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      }
+    },
+    "KeyT" : {
+      "abc" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "australian" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "austrian" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "˝"
+      },
+      "british" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "Ê"
+      },
+      "british_pc" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "byelorussian" : {
+        "a" : "†",
+        "n" : "е",
+        "s" : "Е",
+        "sa" : "†"
+      },
+      "canadian" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "canadian_csa" : {
+        "a" : "™",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "˘"
+      },
+      "canadianfrench_pc" : {
+        "a" : "™",
+        "n" : "t",
+        "s" : "T"
+      },
+      "colemak" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "dvorak" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "dvorak_left" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "dvorak_right" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "hebrew" : {
+        "n" : "א"
+      },
+      "hebrew_pc" : {
+        "n" : "א",
+        "s" : "T"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ָ",
+        "n" : "ת",
+        "s" : "ט",
+        "sa" : "ֳ"
+      },
+      "ingush" : {
+        "a" : "†",
+        "n" : "е",
+        "s" : "Е",
+        "sa" : "†"
+      },
+      "irish" : {
+        "a" : "√",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "∞"
+      },
+      "russian" : {
+        "a" : "†",
+        "n" : "е",
+        "s" : "Е",
+        "sa" : "†"
+      },
+      "russian_phonetic" : {
+        "a" : "ћ",
+        "n" : "т",
+        "s" : "Т",
+        "sa" : "Ћ"
+      },
+      "russianwin" : {
+        "a" : "†",
+        "n" : "е",
+        "s" : "Е",
+        "sa" : "†"
+      },
+      "us" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      },
+      "usinternational_pc" : {
+        "a" : "†",
+        "n" : "t",
+        "s" : "T",
+        "sa" : "ˇ"
+      }
+    },
+    "KeyU" : {
+      "abc" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "australian" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "austrian" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "Á"
+      },
+      "british" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "Ë"
+      },
+      "british_pc" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "byelorussian" : {
+        "a" : "ѓ",
+        "n" : "г",
+        "s" : "Г",
+        "sa" : "Ѓ"
+      },
+      "canadian" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "canadian_csa" : {
+        "a" : " ",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "˛"
+      },
+      "canadianfrench_pc" : {
+        "n" : "u",
+        "s" : "U"
+      },
+      "colemak" : {
+        "a" : "¬",
+        "n" : "l",
+        "s" : "L",
+        "sa" : "Ò"
+      },
+      "dvorak" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "dvorak_left" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "dvorak_right" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "hebrew" : {
+        "a" : "וּ",
+        "n" : "ו",
+        "s" : "וֹ",
+        "sa" : "וּ"
+      },
+      "hebrew_pc" : {
+        "a" : "װ",
+        "n" : "ו",
+        "s" : "U",
+        "sa" : "וּ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ֻ",
+        "n" : "ו",
+        "s" : "וּ",
+        "sa" : "ֻ"
+      },
+      "ingush" : {
+        "n" : "г",
+        "s" : "Г"
+      },
+      "irish" : {
+        "a" : "ú",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "Ú"
+      },
+      "russian" : {
+        "a" : "ѓ",
+        "n" : "г",
+        "s" : "Г",
+        "sa" : "Ѓ"
+      },
+      "russian_phonetic" : {
+        "a" : "ў",
+        "n" : "у",
+        "s" : "У",
+        "sa" : "Ў"
+      },
+      "russianwin" : {
+        "a" : "ѓ",
+        "n" : "г",
+        "s" : "Г",
+        "sa" : "Ѓ"
+      },
+      "us" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      },
+      "usinternational_pc" : {
+        "a" : "¨",
+        "n" : "u",
+        "s" : "U",
+        "sa" : "¨"
+      }
+    },
+    "KeyV" : {
+      "abc" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "australian" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "austrian" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "british" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "british_pc" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "byelorussian" : {
+        "a" : "µ",
+        "n" : "м",
+        "s" : "М",
+        "sa" : "µ"
+      },
+      "canadian" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "canadian_csa" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "canadianfrench_pc" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V"
+      },
+      "colemak" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "dvorak" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "dvorak_left" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "dvorak_right" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "hebrew" : {
+        "a" : "”",
+        "n" : "ה",
+        "sa" : "”"
+      },
+      "hebrew_pc" : {
+        "n" : "ה",
+        "s" : "V",
+        "sa" : "”"
+      },
+      "hebrew_qwerty" : {
+        "a" : "”",
+        "n" : "ו",
+        "s" : "ב",
+        "sa" : "”"
+      },
+      "ingush" : {
+        "a" : "µ",
+        "n" : "м",
+        "s" : "М",
+        "sa" : "µ"
+      },
+      "irish" : {
+        "a" : "ˇ",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "ﬁ"
+      },
+      "russian" : {
+        "a" : "µ",
+        "n" : "м",
+        "s" : "М",
+        "sa" : "µ"
+      },
+      "russian_phonetic" : {
+        "a" : "√",
+        "n" : "в",
+        "s" : "В",
+        "sa" : "†"
+      },
+      "russianwin" : {
+        "a" : "v",
+        "n" : "м",
+        "s" : "М",
+        "sa" : "V"
+      },
+      "us" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "usinternational_pc" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      }
+    },
+    "KeyW" : {
+      "abc" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "australian" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "austrian" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "british" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "british_pc" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "byelorussian" : {
+        "a" : "џ",
+        "n" : "ц",
+        "s" : "Ц",
+        "sa" : "Џ"
+      },
+      "canadian" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "canadian_csa" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "‰"
+      },
+      "canadianfrench_pc" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W"
+      },
+      "colemak" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "dvorak" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "dvorak_left" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "≤",
+        "n" : ",",
+        "s" : "<",
+        "sa" : "¯"
+      },
+      "dvorak_right" : {
+        "a" : "§",
+        "n" : "6",
+        "s" : "^",
+        "sa" : "ﬂ"
+      },
+      "hebrew" : {
+        "a" : "ָ",
+        "n" : "׳",
+        "sa" : "ָ"
+      },
+      "hebrew_pc" : {
+        "n" : "'",
+        "s" : "W",
+        "sa" : "ָ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "שׂ",
+        "n" : "ש",
+        "s" : "שׁ",
+        "sa" : "שׂ"
+      },
+      "ingush" : {
+        "n" : "ц",
+        "s" : "Ц"
+      },
+      "irish" : {
+        "a" : "˙",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "˙"
+      },
+      "russian" : {
+        "a" : "џ",
+        "n" : "ц",
+        "s" : "Ц",
+        "sa" : "Џ"
+      },
+      "russian_phonetic" : {
+        "a" : "щ",
+        "n" : "ш",
+        "s" : "Ш",
+        "sa" : "Щ"
+      },
+      "russianwin" : {
+        "a" : "џ",
+        "n" : "ц",
+        "s" : "Ц",
+        "sa" : "Џ"
+      },
+      "us" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      },
+      "usinternational_pc" : {
+        "a" : "∑",
+        "n" : "w",
+        "s" : "W",
+        "sa" : "„"
+      }
+    },
+    "KeyX" : {
+      "abc" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "australian" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "austrian" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "Ù"
+      },
+      "british" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "Ù"
+      },
+      "british_pc" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "byelorussian" : {
+        "a" : "≈",
+        "n" : "ч",
+        "s" : "Ч",
+        "sa" : "≈"
+      },
+      "canadian" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "canadian_csa" : {
+        "a" : "»",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "›"
+      },
+      "canadianfrench_pc" : {
+        "n" : "x",
+        "s" : "X"
+      },
+      "colemak" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "dvorak" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "dvorak_left" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "œ",
+        "n" : "q",
+        "s" : "Q",
+        "sa" : "Œ"
+      },
+      "dvorak_right" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "hebrew" : {
+        "a" : "—",
+        "n" : "ס",
+        "sa" : "—"
+      },
+      "hebrew_pc" : {
+        "n" : "ס",
+        "s" : "X",
+        "sa" : "—"
+      },
+      "hebrew_qwerty" : {
+        "a" : "—",
+        "n" : "כ",
+        "s" : "ך",
+        "sa" : "—"
+      },
+      "ingush" : {
+        "a" : "≈",
+        "n" : "ч",
+        "s" : "Ч",
+        "sa" : "≈"
+      },
+      "irish" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "≈"
+      },
+      "russian" : {
+        "a" : "≈",
+        "n" : "ч",
+        "s" : "Ч",
+        "sa" : "≈"
+      },
+      "russian_phonetic" : {
+        "a" : "≈",
+        "n" : "х",
+        "s" : "Х"
+      },
+      "russianwin" : {
+        "a" : "x",
+        "n" : "ч",
+        "s" : "Ч",
+        "sa" : "X"
+      },
+      "us" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      },
+      "usinternational_pc" : {
+        "a" : "≈",
+        "n" : "x",
+        "s" : "X",
+        "sa" : "˛"
+      }
+    },
+    "KeyY" : {
+      "abc" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "australian" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "austrian" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "ˇ"
+      },
+      "british" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "british_pc" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "byelorussian" : {
+        "a" : "њ",
+        "n" : "н",
+        "s" : "Н",
+        "sa" : "Њ"
+      },
+      "canadian" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "canadian_csa" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "˝"
+      },
+      "canadianfrench_pc" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y"
+      },
+      "colemak" : {
+        "a" : "∆",
+        "n" : "j",
+        "s" : "J",
+        "sa" : "Ô"
+      },
+      "dvorak" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "dvorak_left" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ƒ",
+        "n" : "f",
+        "s" : "F",
+        "sa" : "Ï"
+      },
+      "dvorak_right" : {
+        "a" : "®",
+        "n" : "r",
+        "s" : "R",
+        "sa" : "‰"
+      },
+      "hebrew" : {
+        "n" : "ט"
+      },
+      "hebrew_pc" : {
+        "n" : "ט",
+        "s" : "Y"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ײַ",
+        "n" : "ט",
+        "s" : "ת",
+        "sa" : "ײַ"
+      },
+      "ingush" : {
+        "n" : "н",
+        "s" : "Н"
+      },
+      "irish" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "¥"
+      },
+      "russian" : {
+        "a" : "њ",
+        "n" : "н",
+        "s" : "Н",
+        "sa" : "Њ"
+      },
+      "russian_phonetic" : {
+        "a" : "™",
+        "n" : "ы",
+        "s" : "Ы",
+        "sa" : "™"
+      },
+      "russianwin" : {
+        "a" : "њ",
+        "n" : "н",
+        "s" : "Н",
+        "sa" : "Њ"
+      },
+      "us" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      },
+      "usinternational_pc" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "Á"
+      }
+    },
+    "KeyZ" : {
+      "abc" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "australian" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "austrian" : {
+        "a" : "¥",
+        "n" : "y",
+        "s" : "Y",
+        "sa" : "‡"
+      },
+      "british" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "Û"
+      },
+      "british_pc" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "byelorussian" : {
+        "a" : "ђ",
+        "n" : "я",
+        "s" : "Я",
+        "sa" : "Ђ"
+      },
+      "canadian" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "canadian_csa" : {
+        "a" : "«",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "‹"
+      },
+      "canadianfrench_pc" : {
+        "n" : "z",
+        "s" : "Z"
+      },
+      "colemak" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "dvorak" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "dvorak_left" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "dvorak_right" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "hebrew" : {
+        "a" : "–",
+        "n" : "ז",
+        "sa" : "–"
+      },
+      "hebrew_pc" : {
+        "n" : "ז",
+        "s" : "Z",
+        "sa" : "–"
+      },
+      "hebrew_qwerty" : {
+        "a" : "–",
+        "n" : "ז",
+        "sa" : "–"
+      },
+      "ingush" : {
+        "n" : "я",
+        "s" : "Я"
+      },
+      "irish" : {
+        "a" : "¯",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "Ω"
+      },
+      "russian" : {
+        "a" : "ђ",
+        "n" : "я",
+        "s" : "Я",
+        "sa" : "Ђ"
+      },
+      "russian_phonetic" : {
+        "a" : "џ",
+        "n" : "з",
+        "s" : "З",
+        "sa" : "Џ"
+      },
+      "russianwin" : {
+        "a" : "ђ",
+        "n" : "я",
+        "s" : "Я",
+        "sa" : "Ђ"
+      },
+      "us" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "usinternational_pc" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      }
+    },
+    "Minus" : {
+      "abc" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "australian" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "austrian" : {
+        "a" : "¿",
+        "n" : "ß",
+        "s" : "?",
+        "sa" : "˙"
+      },
+      "british" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "british_pc" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "byelorussian" : {
+        "a" : "-",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "_"
+      },
+      "canadian" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "canadian_csa" : {
+        "a" : "|",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "¿"
+      },
+      "canadianfrench_pc" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "colemak" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "dvorak" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "dvorak_left" : {
+        "a" : "™",
+        "n" : "2",
+        "s" : "@",
+        "sa" : "€"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "dvorak_right" : {
+        "a" : "“",
+        "n" : "[",
+        "s" : "{",
+        "sa" : "”"
+      },
+      "hebrew" : {
+        "a" : "-",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "-"
+      },
+      "hebrew_pc" : {
+        "a" : "ֿ",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "-"
+      },
+      "hebrew_qwerty" : {
+        "a" : "+",
+        "n" : "–",
+        "s" : "—",
+        "sa" : "-"
+      },
+      "ingush" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "irish" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "russian" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "russian_phonetic" : {
+        "a" : "-",
+        "n" : "ь",
+        "s" : "Ь",
+        "sa" : "—"
+      },
+      "russianwin" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "us" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "usinternational_pc" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      }
+    },
+    "Period" : {
+      "abc" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "australian" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "austrian" : {
+        "a" : "…",
+        "n" : ".",
+        "s" : ":",
+        "sa" : "÷"
+      },
+      "british" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "british_pc" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "byelorussian" : {
+        "a" : ">",
+        "n" : "ю",
+        "s" : "Ю",
+        "sa" : "≥"
+      },
+      "canadian" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "canadian_csa" : {
+        "a" : ">",
+        "n" : ".",
+        "s" : "\"",
+        "sa" : "÷"
+      },
+      "canadianfrench_pc" : {
+        "a" : "·",
+        "n" : ".",
+        "s" : ".",
+        "sa" : "…"
+      },
+      "colemak" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "dvorak" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "dvorak_left" : {
+        "a" : "º",
+        "n" : "0",
+        "s" : ")",
+        "sa" : "‚"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "√",
+        "n" : "v",
+        "s" : "V",
+        "sa" : "◊"
+      },
+      "dvorak_right" : {
+        "a" : "©",
+        "n" : "g",
+        "s" : "G",
+        "sa" : "˝"
+      },
+      "hebrew" : {
+        "n" : "ץ",
+        "s" : "<"
+      },
+      "hebrew_pc" : {
+        "n" : "ץ",
+        "s" : "<"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ּ",
+        "n" : ".",
+        "s" : "<",
+        "sa" : "…"
+      },
+      "ingush" : {
+        "a" : "≥",
+        "n" : "ю",
+        "s" : "Ю",
+        "sa" : ">"
+      },
+      "irish" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "◊"
+      },
+      "russian" : {
+        "a" : "≥",
+        "n" : "ю",
+        "s" : "Ю",
+        "sa" : ">"
+      },
+      "russian_phonetic" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "…"
+      },
+      "russianwin" : {
+        "a" : "≥",
+        "n" : "ю",
+        "s" : "Ю",
+        "sa" : ">"
+      },
+      "us" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      },
+      "usinternational_pc" : {
+        "a" : "≥",
+        "n" : ".",
+        "s" : ">",
+        "sa" : "˘"
+      }
+    },
+    "Quote" : {
+      "abc" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "australian" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "austrian" : {
+        "a" : "æ",
+        "n" : "ä",
+        "s" : "Ä",
+        "sa" : "Æ"
+      },
+      "british" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "british_pc" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "@",
+        "sa" : "Æ"
+      },
+      "byelorussian" : {
+        "a" : "э",
+        "n" : "э",
+        "s" : "Э",
+        "sa" : "Э"
+      },
+      "canadian" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "canadian_csa" : {
+        "a" : "\\",
+        "n" : "è",
+        "s" : "È",
+        "sa" : "’"
+      },
+      "canadianfrench_pc" : {
+        "a" : "…",
+        "n" : "`",
+        "s" : "`"
+      },
+      "colemak" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "dvorak" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "dvorak_left" : {
+        "a" : "¶",
+        "n" : "7",
+        "s" : "&",
+        "sa" : "‡"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "dvorak_right" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "hebrew" : {
+        "a" : "ֲ",
+        "n" : ",",
+        "s" : "״",
+        "sa" : "ֲ"
+      },
+      "hebrew_pc" : {
+        "n" : ",",
+        "s" : "\"",
+        "sa" : "ֲ"
+      },
+      "hebrew_qwerty" : {
+        "a" : "‘",
+        "n" : "׳",
+        "s" : "’",
+        "sa" : "’"
+      },
+      "ingush" : {
+        "a" : "э",
+        "n" : "э",
+        "s" : "Э",
+        "sa" : "Э"
+      },
+      "irish" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "russian" : {
+        "a" : "э",
+        "n" : "э",
+        "s" : "Э",
+        "sa" : "Э"
+      },
+      "russian_phonetic" : {
+        "a" : "’",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "`"
+      },
+      "russianwin" : {
+        "a" : "є",
+        "n" : "э",
+        "s" : "Э",
+        "sa" : "Є"
+      },
+      "us" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "usinternational_pc" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      }
+    },
+    "Semicolon" : {
+      "abc" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "australian" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "austrian" : {
+        "a" : "œ",
+        "n" : "ö",
+        "s" : "Ö",
+        "sa" : "Œ"
+      },
+      "british" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "british_pc" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "byelorussian" : {
+        "a" : "…",
+        "n" : "ж",
+        "s" : "Ж",
+        "sa" : "…"
+      },
+      "canadian" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "canadian_csa" : {
+        "a" : "°",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "´"
+      },
+      "canadianfrench_pc" : {
+        "a" : "~",
+        "n" : ";",
+        "s" : ":"
+      },
+      "colemak" : {
+        "a" : "ø",
+        "n" : "o",
+        "s" : "O",
+        "sa" : "Ø"
+      },
+      "dvorak" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "dvorak_left" : {
+        "a" : "•",
+        "n" : "8",
+        "s" : "*",
+        "sa" : "°"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "ß",
+        "n" : "s",
+        "s" : "S",
+        "sa" : "Í"
+      },
+      "dvorak_right" : {
+        "a" : "˚",
+        "n" : "k",
+        "s" : "K",
+        "sa" : ""
+      },
+      "hebrew" : {
+        "a" : ";",
+        "n" : "ף",
+        "s" : ":",
+        "sa" : ";"
+      },
+      "hebrew_pc" : {
+        "n" : "ף",
+        "s" : ":",
+        "sa" : ";"
+      },
+      "hebrew_qwerty" : {
+        "a" : "ְ",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "ְ"
+      },
+      "ingush" : {
+        "a" : "…",
+        "n" : "ж",
+        "s" : "Ж",
+        "sa" : "…"
+      },
+      "irish" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "‡"
+      },
+      "russian" : {
+        "a" : "…",
+        "n" : "ж",
+        "s" : "Ж",
+        "sa" : "…"
+      },
+      "russian_phonetic" : {
+        "a" : "„",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "’"
+      },
+      "russianwin" : {
+        "a" : "«",
+        "n" : "ж",
+        "s" : "Ж",
+        "sa" : "»"
+      },
+      "us" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      },
+      "usinternational_pc" : {
+        "a" : "…",
+        "n" : ";",
+        "s" : ":",
+        "sa" : "Ú"
+      }
+    },
+    "Slash" : {
+      "abc" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "australian" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "austrian" : {
+        "a" : "–",
+        "n" : "-",
+        "s" : "_",
+        "sa" : "—"
+      },
+      "british" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "british_pc" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "byelorussian" : {
+        "a" : "ё",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "Ё"
+      },
+      "canadian" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "canadian_csa" : {
+        "a" : "\/",
+        "n" : "é",
+        "s" : "É",
+        "sa" : "≠"
+      },
+      "canadianfrench_pc" : {
+        "a" : "÷",
+        "n" : "é",
+        "s" : "É",
+        "sa" : "×"
+      },
+      "colemak" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "dvorak" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "dvorak_left" : {
+        "a" : "ª",
+        "n" : "9",
+        "s" : "(",
+        "sa" : "·"
+      },
+      "dvorak_qwertycmd" : {
+        "a" : "Ω",
+        "n" : "z",
+        "s" : "Z",
+        "sa" : "¸"
+      },
+      "dvorak_right" : {
+        "a" : "æ",
+        "n" : "'",
+        "s" : "\"",
+        "sa" : "Æ"
+      },
+      "hebrew" : {
+        "n" : ".",
+        "s" : "?"
+      },
+      "hebrew_pc" : {
+        "n" : ".",
+        "s" : "?"
+      },
+      "hebrew_qwerty" : {
+        "n" : "\/",
+        "s" : "?"
+      },
+      "ingush" : {
+        "a" : "“",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "„"
+      },
+      "irish" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "russian" : {
+        "a" : "“",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "„"
+      },
+      "russian_phonetic" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "\\"
+      },
+      "russianwin" : {
+        "a" : "ї",
+        "n" : ".",
+        "s" : ",",
+        "sa" : "Ї"
+      },
+      "us" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      },
+      "usinternational_pc" : {
+        "a" : "÷",
+        "n" : "\/",
+        "s" : "?",
+        "sa" : "¿"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Clear quarantine attribute after installation
+xattr -cr /Applications/OMFK.app 2>/dev/null || true
+exit 0

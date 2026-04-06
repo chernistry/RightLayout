@@ -1,0 +1,282 @@
+hello world
+good morning
+good afternoon
+good evening
+good night
+thank you
+thanks
+please
+sorry
+excuse me
+goodbye
+see you
+nice to meet you
+how are you
+what is your name
+my name is
+where are you from
+i am from
+how much does it cost
+where is
+when does it open
+can i come in
+help please
+i do not understand
+please repeat
+speak slowly
+i am a tourist
+do you speak english
+what time is it
+where is the bathroom
+i need help
+call a doctor
+this is beautiful
+i like it
+i agree
+i disagree
+of course
+maybe
+probably
+exactly
+correct
+incorrect
+good
+bad
+excellent
+wonderful
+beautiful
+terrible
+cold
+hot
+warm
+rain
+snow
+sun
+wind
+weather
+today
+yesterday
+tomorrow
+now
+later
+earlier
+morning
+afternoon
+evening
+night
+monday
+tuesday
+wednesday
+thursday
+friday
+saturday
+sunday
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+hundred
+thousand
+million
+red
+blue
+green
+yellow
+black
+white
+gray
+big
+small
+new
+old
+young
+fast
+slow
+tall
+short
+long
+wide
+narrow
+heavy
+light
+hot
+house
+family
+friend
+work
+school
+university
+book
+car
+phone
+computer
+food
+water
+bread
+meat
+fish
+vegetables
+fruits
+milk
+tea
+coffee
+sugar
+salt
+restaurant
+store
+pharmacy
+hospital
+bank
+post office
+train station
+airport
+hotel
+museum
+theater
+cinema
+park
+street
+square
+bridge
+river
+sea
+mountain
+forest
+city
+village
+country
+world
+planet
+star
+sun
+moon
+earth
+sky
+cloud
+tree
+flower
+grass
+animal
+dog
+cat
+bird
+fish
+person
+man
+woman
+child
+boy
+girl
+mother
+father
+son
+daughter
+brother
+sister
+grandfather
+grandmother
+teacher
+doctor
+engineer
+artist
+musician
+writer
+student
+worker
+hello there
+how do you do
+nice weather
+terrible weather
+i love this
+i hate this
+very good
+very bad
+not bad
+so so
+come here
+go there
+turn right
+turn left
+straight ahead
+stop here
+wait please
+hurry up
+slow down
+be careful
+watch out
+look here
+listen carefully
+read this
+write that
+speak english
+learn russian
+study hard
+work well
+play games
+watch movies
+listen music
+eat food
+drink water
+sleep well
+wake up
+get up
+sit down
+stand up
+come in
+go out
+open door
+close window
+turn on light
+turn off computer
+make coffee
+cook dinner
+wash hands
+brush teeth
+take shower
+wear clothes
+buy food
+sell car
+pay bill
+save money
+spend time
+waste energy
+use phone
+check email
+send message
+receive gift
+give help
+take advice
+ask question
+answer correctly
+solve problem
+find solution
+make mistake
+fix error
+learn lesson
+teach class
+pass exam
+fail test
+win game
+lose match
+start work
+finish project
+begin journey
+end story

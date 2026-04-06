@@ -1,0 +1,52 @@
+{
+  "detection": {
+    "description": "Thresholds for language detection confidence",
+    "correctionThreshold": 0.45,
+    "deepConfidenceMin": 0.7,
+    "fallbackConfidence": 0.5
+  },
+  "validation": {
+    "description": "Thresholds for conversion validation",
+    "targetWordMin": 0.80,
+    "targetWordMargin": 0.20,
+    "targetFreqMargin": 0.25,
+    "targetNormMin": 0.75,
+    "targetNormMargin": 0.15,
+    "shortWordFreqMin": 0.60
+  },
+  "scoring": {
+    "description": "Thresholds for scored decision",
+    "shortWordMargin": 0.25,
+    "longWordMargin": 0.70,
+    "wordConfidenceMin": 0.80
+  },
+  "heuristic": {
+    "description": "Thresholds for heuristic correction",
+    "sourceWordConfMax": 0.80,
+    "baseConfMin": 0.75
+  },
+  "timing": {
+    "description": "Timing thresholds for correction engine and event monitor",
+    "pendingWordTimeout": 5.0,
+    "pendingWordMinConfidence": 0.40,
+    "prepositionMinConfidence": 0.10,
+    "cyclingStateTimeout": 60.0,
+    "cyclingMinDuration": 0.5,
+    "bufferTimeout": 2.0,
+    "lastCorrectionTimeout": 3.0,
+    "layoutSwitchTimeout": 0.3,
+    "clipboardDelayMs": 150,
+    "pasteDelayMs": 100,
+    "typingChunkSize": 20,
+    "deletionDelayMs": 20,
+    "accessibilityPollInterval": 2.0
+  },
+  "correction": {
+    "description": "Correction engine parameters",
+    "contextBoostAmount": 0.20,
+    "historyMaxSize": 50,
+    "bufferReserveCapacity": 64,
+    "visibleAlternativesRound1": 2,
+    "visibleAlternativesRound2": 3
+  }
+}
