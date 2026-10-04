@@ -106,7 +106,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details on adding features and langua
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE).
+Apache-2.0 — see [LICENSE](LICENSE). Use of the project name: [TRADEMARKS.md](TRADEMARKS.md).
 
 ---
 
