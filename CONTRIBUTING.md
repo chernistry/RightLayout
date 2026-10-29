@@ -263,6 +263,11 @@ instruments -t "Time Profiler" .build/release/RightLayout
 6. Create git tag: `git tag v1.0.0`
 7. Push tag: `git push --tags`
 
+### Migration Notes
+
+For major releases, publish migration notes in `releases/notes/vX.0.md` before tagging.
+See [Migration Notes](docs/MIGRATION.md) for the checklist and a copy-pasteable example.
+
 ## Documentation
 
 ### Code Documentation
