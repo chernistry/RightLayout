@@ -16,6 +16,8 @@ RightLayout fixes your keyboard layout mistakes before you notice them.
 
 *macOS 13+ · Free · Open Source*
 
+<a href="https://github.com/sipyourdrink-ltd/bernstein"><img src="assets/built-with-bernstein.svg" alt="built with Bernstein" height="20"></a>
+
 </div>
 
 ---
