@@ -1,3 +1,11 @@
+<a href="https://glyphshift.app/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chernistry/RightLayout/main/assets/brand/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chernistry/RightLayout/main/assets/brand/header-light.svg">
+  <img alt="RightLayout: Superseded by GlyphShift. glyphshift.app." src="https://raw.githubusercontent.com/chernistry/RightLayout/main/assets/brand/header-light.svg">
+</picture>
+</a>
+
 [English](README.md) | [Русский](README.ru.md)
 
 <div align="center">
